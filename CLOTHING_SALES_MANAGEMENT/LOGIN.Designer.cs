@@ -35,6 +35,7 @@
             this.txtPassword = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.btnExit = new MetroFramework.Controls.MetroButton();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -145,11 +146,21 @@
             this.btnExit.Text = "EXIT";
             this.btnExit.UseSelectable = true;
             // 
+            // metroButton2
+            // 
+            this.metroButton2.Location = new System.Drawing.Point(437, 575);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(130, 40);
+            this.metroButton2.TabIndex = 7;
+            this.metroButton2.Text = "test";
+            this.metroButton2.UseSelectable = true;
+            // 
             // btnLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1144, 704);
+            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.txtPassword);
@@ -173,6 +184,7 @@
         private MetroFramework.Controls.MetroTextBox txtPassword;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton btnExit;
+        private MetroFramework.Controls.MetroButton metroButton2;
     }
 }
 
