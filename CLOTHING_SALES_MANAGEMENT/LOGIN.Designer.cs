@@ -35,6 +35,7 @@
             this.txtPassword = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.btnExit = new MetroFramework.Controls.MetroButton();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -42,7 +43,8 @@
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel1.Location = new System.Drawing.Point(235, 132);
+            this.metroLabel1.Location = new System.Drawing.Point(157, 84);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(371, 25);
             this.metroLabel1.TabIndex = 0;
@@ -51,9 +53,10 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(210, 313);
+            this.metroLabel2.Location = new System.Drawing.Point(140, 200);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(81, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(85, 20);
             this.metroLabel2.TabIndex = 1;
             this.metroLabel2.Text = "USERNAME:";
             this.metroLabel2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -61,9 +64,10 @@
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(210, 423);
+            this.metroLabel3.Location = new System.Drawing.Point(140, 271);
+            this.metroLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(82, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(83, 20);
             this.metroLabel3.TabIndex = 2;
             this.metroLabel3.Text = "PASSWORD:";
             // 
@@ -73,16 +77,18 @@
             // 
             // 
             this.txtUsername.CustomButton.Image = null;
-            this.txtUsername.CustomButton.Location = new System.Drawing.Point(273, 2);
+            this.txtUsername.CustomButton.Location = new System.Drawing.Point(122, 1);
+            this.txtUsername.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsername.CustomButton.Name = "";
-            this.txtUsername.CustomButton.Size = new System.Drawing.Size(35, 35);
+            this.txtUsername.CustomButton.Size = new System.Drawing.Size(14, 13);
             this.txtUsername.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtUsername.CustomButton.TabIndex = 1;
             this.txtUsername.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtUsername.CustomButton.UseSelectable = true;
             this.txtUsername.CustomButton.Visible = false;
             this.txtUsername.Lines = new string[0];
-            this.txtUsername.Location = new System.Drawing.Point(471, 313);
+            this.txtUsername.Location = new System.Drawing.Point(314, 200);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsername.MaxLength = 32767;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
@@ -91,7 +97,7 @@
             this.txtUsername.SelectionLength = 0;
             this.txtUsername.SelectionStart = 0;
             this.txtUsername.ShortcutsEnabled = true;
-            this.txtUsername.Size = new System.Drawing.Size(311, 40);
+            this.txtUsername.Size = new System.Drawing.Size(207, 26);
             this.txtUsername.TabIndex = 3;
             this.txtUsername.UseSelectable = true;
             this.txtUsername.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -103,16 +109,18 @@
             // 
             // 
             this.txtPassword.CustomButton.Image = null;
-            this.txtPassword.CustomButton.Location = new System.Drawing.Point(273, 2);
+            this.txtPassword.CustomButton.Location = new System.Drawing.Point(122, 1);
+            this.txtPassword.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassword.CustomButton.Name = "";
-            this.txtPassword.CustomButton.Size = new System.Drawing.Size(35, 35);
+            this.txtPassword.CustomButton.Size = new System.Drawing.Size(14, 13);
             this.txtPassword.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtPassword.CustomButton.TabIndex = 1;
             this.txtPassword.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtPassword.CustomButton.UseSelectable = true;
             this.txtPassword.CustomButton.Visible = false;
             this.txtPassword.Lines = new string[0];
-            this.txtPassword.Location = new System.Drawing.Point(471, 419);
+            this.txtPassword.Location = new System.Drawing.Point(314, 268);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassword.MaxLength = 32767;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '\0';
@@ -121,7 +129,7 @@
             this.txtPassword.SelectionLength = 0;
             this.txtPassword.SelectionStart = 0;
             this.txtPassword.ShortcutsEnabled = true;
-            this.txtPassword.Size = new System.Drawing.Size(311, 40);
+            this.txtPassword.Size = new System.Drawing.Size(207, 26);
             this.txtPassword.TabIndex = 4;
             this.txtPassword.UseSelectable = true;
             this.txtPassword.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -129,27 +137,39 @@
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(210, 575);
+            this.metroButton1.Location = new System.Drawing.Point(140, 368);
+            this.metroButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(130, 40);
+            this.metroButton1.Size = new System.Drawing.Size(87, 26);
             this.metroButton1.TabIndex = 5;
             this.metroButton1.Text = "LOGIN";
             this.metroButton1.UseSelectable = true;
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(650, 575);
+            this.btnExit.Location = new System.Drawing.Point(433, 368);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(130, 40);
+            this.btnExit.Size = new System.Drawing.Size(87, 26);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "EXIT";
             this.btnExit.UseSelectable = true;
             // 
+            // metroButton2
+            // 
+            this.metroButton2.Location = new System.Drawing.Point(90, 134);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(75, 23);
+            this.metroButton2.TabIndex = 7;
+            this.metroButton2.Text = "metroButton2";
+            this.metroButton2.UseSelectable = true;
+            // 
             // btnLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1144, 704);
+            this.ClientSize = new System.Drawing.Size(763, 451);
+            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.txtPassword);
@@ -157,7 +177,9 @@
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "btnLogin";
+            this.Padding = new System.Windows.Forms.Padding(13, 38, 13, 13);
             this.Text = "LOGIN";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -173,6 +195,7 @@
         private MetroFramework.Controls.MetroTextBox txtPassword;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton btnExit;
+        private MetroFramework.Controls.MetroButton metroButton2;
     }
 }
 
