@@ -16,5 +16,24 @@ namespace CLOTHING_SALES_MANAGEMENT
         {
             InitializeComponent();
         }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            if(txtUsername.Text=="tu" && txtPassword.Text == "123")
+            {
+                frm_Salestaff_Page f = new frm_Salestaff_Page();
+                this.Hide();
+                f.Show();
+            }
+            else
+            {
+                
+                txtPassword.Clear();
+            }
+            
+
+
+
+        }
     }
 }
