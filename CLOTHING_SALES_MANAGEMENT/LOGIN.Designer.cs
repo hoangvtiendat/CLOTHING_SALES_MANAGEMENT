@@ -35,7 +35,6 @@
             this.txtPassword = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.btnExit = new MetroFramework.Controls.MetroButton();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -77,10 +76,10 @@
             // 
             // 
             this.txtUsername.CustomButton.Image = null;
-            this.txtUsername.CustomButton.Location = new System.Drawing.Point(122, 1);
-            this.txtUsername.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsername.CustomButton.Location = new System.Drawing.Point(183, 2);
+            this.txtUsername.CustomButton.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.CustomButton.Name = "";
-            this.txtUsername.CustomButton.Size = new System.Drawing.Size(14, 13);
+            this.txtUsername.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.txtUsername.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtUsername.CustomButton.TabIndex = 1;
             this.txtUsername.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -88,7 +87,7 @@
             this.txtUsername.CustomButton.Visible = false;
             this.txtUsername.Lines = new string[0];
             this.txtUsername.Location = new System.Drawing.Point(314, 200);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.MaxLength = 32767;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
@@ -109,10 +108,10 @@
             // 
             // 
             this.txtPassword.CustomButton.Image = null;
-            this.txtPassword.CustomButton.Location = new System.Drawing.Point(122, 1);
-            this.txtPassword.CustomButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPassword.CustomButton.Location = new System.Drawing.Point(183, 2);
+            this.txtPassword.CustomButton.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.CustomButton.Name = "";
-            this.txtPassword.CustomButton.Size = new System.Drawing.Size(14, 13);
+            this.txtPassword.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.txtPassword.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtPassword.CustomButton.TabIndex = 1;
             this.txtPassword.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -120,7 +119,7 @@
             this.txtPassword.CustomButton.Visible = false;
             this.txtPassword.Lines = new string[0];
             this.txtPassword.Location = new System.Drawing.Point(314, 268);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.MaxLength = 32767;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '\0';
@@ -138,7 +137,7 @@
             // metroButton1
             // 
             this.metroButton1.Location = new System.Drawing.Point(140, 368);
-            this.metroButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.metroButton1.Margin = new System.Windows.Forms.Padding(2);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(87, 26);
             this.metroButton1.TabIndex = 5;
@@ -148,28 +147,18 @@
             // btnExit
             // 
             this.btnExit.Location = new System.Drawing.Point(433, 368);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(87, 26);
             this.btnExit.TabIndex = 6;
             this.btnExit.Text = "EXIT";
             this.btnExit.UseSelectable = true;
             // 
-            // metroButton2
-            // 
-            this.metroButton2.Location = new System.Drawing.Point(90, 134);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(75, 23);
-            this.metroButton2.TabIndex = 7;
-            this.metroButton2.Text = "metroButton2";
-            this.metroButton2.UseSelectable = true;
-            // 
             // btnLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(763, 451);
-            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.txtPassword);
@@ -177,9 +166,9 @@
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "btnLogin";
-            this.Padding = new System.Windows.Forms.Padding(13, 38, 13, 13);
+            this.Padding = new System.Windows.Forms.Padding(13, 60, 13, 13);
             this.Text = "LOGIN";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -195,7 +184,6 @@
         private MetroFramework.Controls.MetroTextBox txtPassword;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton btnExit;
-        private MetroFramework.Controls.MetroButton metroButton2;
     }
 }
 

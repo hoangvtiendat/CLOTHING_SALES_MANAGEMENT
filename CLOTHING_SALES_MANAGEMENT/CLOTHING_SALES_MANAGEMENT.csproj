@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
     </Reference>
@@ -45,6 +48,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -56,16 +63,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account_frm.Designer.cs">
+      <DependentUpon>Account_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_frm.Designer.cs">
+      <DependentUpon>Customer_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLOYEE_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EMPLOYEE_frm.Designer.cs">
+      <DependentUpon>EMPLOYEE_frm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LOGIN.Designer.cs">
       <DependentUpon>LOGIN.cs</DependentUpon>
     </Compile>
+    <Compile Include="Manage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage.Designer.cs">
+      <DependentUpon>Manage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product_frm.Designer.cs">
+      <DependentUpon>Product_frm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PuchaseHistory_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuchaseHistory_frm.Designer.cs">
+      <DependentUpon>PuchaseHistory_frm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account_frm.resx">
+      <DependentUpon>Account_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_frm.resx">
+      <DependentUpon>Customer_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMPLOYEE_frm.resx">
+      <DependentUpon>EMPLOYEE_frm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LOGIN.resx">
       <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage.resx">
+      <DependentUpon>Manage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product_frm.resx">
+      <DependentUpon>Product_frm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,6 +134,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PuchaseHistory_frm.resx">
+      <DependentUpon>PuchaseHistory_frm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
