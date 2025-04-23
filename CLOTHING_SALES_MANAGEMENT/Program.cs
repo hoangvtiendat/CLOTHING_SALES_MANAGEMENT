@@ -16,7 +16,7 @@ namespace CLOTHING_SALES_MANAGEMENT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new btnLogin());
+            Application.Run(new HousewareManager_DM());
         }
     }
 }

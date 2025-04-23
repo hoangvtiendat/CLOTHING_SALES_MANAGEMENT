@@ -30,7 +30,7 @@
             // 
             // panelHeader
             // 
-            this.panelHeader.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.panelHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panelHeader.Controls.Add(this.metroLabelTitle);
             this.panelHeader.Controls.Add(this.comboDanhMuc);
             this.panelHeader.Controls.Add(this.btnThem);
@@ -47,23 +47,23 @@
             this.metroLabelTitle.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabelTitle.Location = new System.Drawing.Point(47, 27);
             this.metroLabelTitle.Name = "metroLabelTitle";
-            this.metroLabelTitle.Size = new System.Drawing.Size(118, 25);
+            this.metroLabelTitle.Size = new System.Drawing.Size(112, 25);
             this.metroLabelTitle.TabIndex = 0;
             this.metroLabelTitle.Text = "DANH MỤC";
             // 
             // comboDanhMuc
             // 
             this.comboDanhMuc.FormattingEnabled = true;
-            this.comboDanhMuc.ItemHeight = 24;
+            this.comboDanhMuc.ItemHeight = 23;
             this.comboDanhMuc.Location = new System.Drawing.Point(196, 25);
             this.comboDanhMuc.Name = "comboDanhMuc";
-            this.comboDanhMuc.Size = new System.Drawing.Size(250, 30);
+            this.comboDanhMuc.Size = new System.Drawing.Size(250, 29);
             this.comboDanhMuc.TabIndex = 1;
             this.comboDanhMuc.UseSelectable = true;
             // 
             // btnThem
             // 
-            this.btnThem.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnThem.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.Location = new System.Drawing.Point(495, 25);
             this.btnThem.Name = "btnThem";
