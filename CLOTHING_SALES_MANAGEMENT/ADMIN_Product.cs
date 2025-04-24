@@ -10,21 +10,19 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class EMPLOYEE_frm: MetroFramework.Forms.MetroForm
+    public partial class ADMIN_Product: MetroFramework.Forms.MetroForm
     {
-        public EMPLOYEE_frm()
+        public ADMIN_Product()
         {
             InitializeComponent();
         }
 
-
-
-        private void EMPLOYEE_frm_Load(object sender, EventArgs e)
+        private void txtPrice_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnFind_Click(object sender, EventArgs e)
+        private void ADMIN_Product_Load(object sender, EventArgs e)
         {
 
         }

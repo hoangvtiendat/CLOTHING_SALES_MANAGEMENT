@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class PuchaseHistory_frm: MetroFramework.Forms.MetroForm
+    public partial class ADMIN_Employee: MetroFramework.Forms.MetroForm
     {
-        public PuchaseHistory_frm()
+        public ADMIN_Employee()
         {
             InitializeComponent();
+        }
+
+
+
+        private void EMPLOYEE_frm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

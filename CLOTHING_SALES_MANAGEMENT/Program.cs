@@ -17,7 +17,7 @@ namespace CLOTHING_SALES_MANAGEMENT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new btnLogin());
+            Application.Run(new ADMIN_Manage());
         }
     }
 }

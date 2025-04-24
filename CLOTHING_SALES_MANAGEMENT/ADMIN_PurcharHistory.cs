@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class Account_frm: MetroFramework.Forms.MetroForm
+    public partial class ADMIN_PurcharHistory: MetroFramework.Forms.MetroForm
     {
-        public Account_frm()
+        public ADMIN_PurcharHistory()
         {
             InitializeComponent();
         }
 
-        private void metroLabel4_Click(object sender, EventArgs e)
+        private void metroLabel1_Click(object sender, EventArgs e)
         {
 
         }
