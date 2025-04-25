@@ -26,5 +26,10 @@ namespace CLOTHING_SALES_MANAGEMENT
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

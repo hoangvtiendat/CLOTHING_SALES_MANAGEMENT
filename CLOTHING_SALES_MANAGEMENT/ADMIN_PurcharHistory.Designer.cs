@@ -46,16 +46,16 @@
             // 
             // metroDateTime1
             // 
-            this.metroDateTime1.Location = new System.Drawing.Point(404, 93);
+            this.metroDateTime1.Location = new System.Drawing.Point(559, 141);
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 30);
             this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.Size = new System.Drawing.Size(200, 30);
+            this.metroDateTime1.Size = new System.Drawing.Size(244, 30);
             this.metroDateTime1.TabIndex = 1;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(103, 188);
+            this.dataGridView1.Location = new System.Drawing.Point(209, 249);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -65,7 +65,7 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(192, 103);
+            this.metroLabel2.Location = new System.Drawing.Point(328, 151);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(166, 20);
             this.metroLabel2.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(916, 514);
+            this.ClientSize = new System.Drawing.Size(1090, 595);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.metroDateTime1);

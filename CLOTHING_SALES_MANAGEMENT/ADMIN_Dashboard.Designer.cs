@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblRevennue = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,9 +57,9 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.lblRevennue);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(23, 63);
+            this.panel1.Location = new System.Drawing.Point(61, 63);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 94);
+            this.panel1.Size = new System.Drawing.Size(201, 94);
             this.panel1.TabIndex = 0;
             // 
             // lblRevennue
@@ -89,9 +89,9 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(482, 63);
+            this.panel2.Location = new System.Drawing.Point(584, 63);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(170, 94);
+            this.panel2.Size = new System.Drawing.Size(196, 94);
             this.panel2.TabIndex = 2;
             // 
             // label2
@@ -121,9 +121,9 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
-            this.panel3.Location = new System.Drawing.Point(252, 63);
+            this.panel3.Location = new System.Drawing.Point(313, 63);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(170, 94);
+            this.panel3.Size = new System.Drawing.Size(197, 94);
             this.panel3.TabIndex = 3;
             // 
             // label4
@@ -153,9 +153,9 @@
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(707, 63);
+            this.panel4.Location = new System.Drawing.Point(863, 63);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(170, 94);
+            this.panel4.Size = new System.Drawing.Size(186, 94);
             this.panel4.TabIndex = 4;
             // 
             // label6
@@ -181,16 +181,16 @@
             // 
             // chartDashboard
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartDashboard.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartDashboard.Legends.Add(legend1);
-            this.chartDashboard.Location = new System.Drawing.Point(23, 194);
+            chartArea2.Name = "ChartArea1";
+            this.chartDashboard.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartDashboard.Legends.Add(legend2);
+            this.chartDashboard.Location = new System.Drawing.Point(122, 193);
             this.chartDashboard.Name = "chartDashboard";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartDashboard.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartDashboard.Series.Add(series2);
             this.chartDashboard.Size = new System.Drawing.Size(854, 300);
             this.chartDashboard.TabIndex = 5;
             this.chartDashboard.Text = "chartDashboard";
@@ -199,7 +199,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 500);
+            this.ClientSize = new System.Drawing.Size(1136, 500);
             this.Controls.Add(this.chartDashboard);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
