@@ -1,6 +1,6 @@
 ﻿namespace CLOTHING_SALES_MANAGEMENT
 {
-    partial class frmGioHang
+    partial class frmSaleGioHang
     {
         /// <summary>
         /// Required designer variable.
@@ -141,7 +141,7 @@
             this.btnTroVe.UseWaitCursor = true;
             this.btnTroVe.Click += new System.EventHandler(this.btnTroVe_Click);
             // 
-            // frmGioHang
+            // frmSaleGioHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -154,7 +154,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pnGioHang);
-            this.Name = "frmGioHang";
+            this.Name = "frmSaleGioHang";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "GIỎ HÀNG";
             this.UseWaitCursor = true;

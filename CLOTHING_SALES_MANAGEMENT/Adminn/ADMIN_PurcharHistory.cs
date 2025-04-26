@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class ADMIN_PurcharHistory: MetroFramework.Forms.MetroForm
+    public partial class frmAdminPurcharHistory: MetroFramework.Forms.MetroForm
     {
-        public ADMIN_PurcharHistory()
+        public frmAdminPurcharHistory()
         {
             InitializeComponent();
         }

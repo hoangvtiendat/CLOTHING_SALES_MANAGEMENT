@@ -1,6 +1,6 @@
 ﻿namespace CLOTHING_SALES_MANAGEMENT
 {
-    partial class frmHoaDon
+    partial class frmSaleHoaDon
     {
         /// <summary>
         /// Required designer variable.
@@ -310,7 +310,7 @@
             this.btnThanhToan.UseWaitCursor = true;
             this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
             // 
-            // frmHoaDon
+            // frmSaleHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -319,7 +319,7 @@
             this.Controls.Add(this.btnThanhToan);
             this.Controls.Add(this.btnTroVe);
             this.Controls.Add(this.pnHoaDon);
-            this.Name = "frmHoaDon";
+            this.Name = "frmSaleHoaDon";
             this.Padding = new System.Windows.Forms.Padding(22, 62, 22, 21);
             this.Text = "HÓA ĐƠN";
             this.pnHoaDon.ResumeLayout(false);

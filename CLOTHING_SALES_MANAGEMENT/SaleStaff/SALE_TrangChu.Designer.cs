@@ -1,6 +1,6 @@
 ﻿namespace CLOTHING_SALES_MANAGEMENT
 {
-    partial class frmTrangChu
+    partial class frmSaleTrangChu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,40 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTrangChu));
-            this.btnGioHang = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.cbSapXep = new MetroFramework.Controls.MetroComboBox();
             this.txtTenSanPham = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.cbDanhMuc = new MetroFramework.Controls.MetroComboBox();
+            this.btnGioHang = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnGioHang
-            // 
-            this.btnGioHang.BackColor = System.Drawing.Color.Tan;
-            this.btnGioHang.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGioHang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGioHang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGioHang.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGioHang.FillColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnGioHang.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnGioHang.ForeColor = System.Drawing.Color.White;
-            this.btnGioHang.Image = ((System.Drawing.Image)(resources.GetObject("btnGioHang.Image")));
-            this.btnGioHang.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnGioHang.Location = new System.Drawing.Point(1785, 174);
-            this.btnGioHang.Name = "btnGioHang";
-            this.btnGioHang.Size = new System.Drawing.Size(123, 109);
-            this.btnGioHang.TabIndex = 11;
-            this.btnGioHang.Click += new System.EventHandler(this.btnGioHang_Click);
             // 
             // panel2
             // 
@@ -71,27 +46,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1881, 614);
             this.panel2.TabIndex = 13;
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 30;
-            this.guna2Elipse1.TargetControl = this;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.TargetControl = this;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this;
-            // 
-            // guna2Elipse5
-            // 
-            this.guna2Elipse5.TargetControl = this;
             // 
             // metroLabel1
             // 
@@ -132,7 +86,7 @@
             // 
             // 
             this.txtTenSanPham.CustomButton.Image = null;
-            this.txtTenSanPham.CustomButton.Location = new System.Drawing.Point(206, 1);
+            this.txtTenSanPham.CustomButton.Location = new System.Drawing.Point(519, 1);
             this.txtTenSanPham.CustomButton.Name = "";
             this.txtTenSanPham.CustomButton.Size = new System.Drawing.Size(43, 43);
             this.txtTenSanPham.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -175,11 +129,23 @@
             this.cbDanhMuc.TabIndex = 29;
             this.cbDanhMuc.UseSelectable = true;
             // 
-            // frmTrangChu
+            // btnGioHang
+            // 
+            this.btnGioHang.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnGioHang.Location = new System.Drawing.Point(1715, 153);
+            this.btnGioHang.Name = "btnGioHang";
+            this.btnGioHang.Size = new System.Drawing.Size(193, 121);
+            this.btnGioHang.TabIndex = 30;
+            this.btnGioHang.Text = "GIỎ HÀNG";
+            this.btnGioHang.UseVisualStyleBackColor = false;
+            this.btnGioHang.Click += new System.EventHandler(this.btnGioHang_Click_1);
+            // 
+            // frmSaleTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1966, 1074);
+            this.Controls.Add(this.btnGioHang);
             this.Controls.Add(this.txtTenSanPham);
             this.Controls.Add(this.cbDanhMuc);
             this.Controls.Add(this.metroButton1);
@@ -187,8 +153,7 @@
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnGioHang);
-            this.Name = "frmTrangChu";
+            this.Name = "frmSaleTrangChu";
             this.Padding = new System.Windows.Forms.Padding(22, 62, 22, 21);
             this.Text = "SALE STAFF";
             this.ResumeLayout(false);
@@ -197,18 +162,15 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Button btnGioHang;
+      
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
+        
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroComboBox cbSapXep;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroTextBox txtTenSanPham;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroComboBox cbDanhMuc;
+        private System.Windows.Forms.Button btnGioHang;
     }
 }

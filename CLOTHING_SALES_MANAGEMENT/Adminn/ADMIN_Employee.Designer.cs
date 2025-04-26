@@ -1,6 +1,6 @@
 ﻿namespace CLOTHING_SALES_MANAGEMENT
 {
-    partial class ADMIN_Employee
+    partial class frmAdminEmployee
     {
         /// <summary>
         /// Required designer variable.
@@ -53,63 +53,71 @@
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(272, 98);
+            this.txtTen.Location = new System.Drawing.Point(408, 153);
+            this.txtTen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(196, 22);
+            this.txtTen.Size = new System.Drawing.Size(292, 31);
             this.txtTen.TabIndex = 5;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(272, 138);
+            this.txtEmail.Location = new System.Drawing.Point(408, 216);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(196, 22);
+            this.txtEmail.Size = new System.Drawing.Size(292, 31);
             this.txtEmail.TabIndex = 6;
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(272, 180);
+            this.txtDiaChi.Location = new System.Drawing.Point(408, 281);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(196, 22);
+            this.txtDiaChi.Size = new System.Drawing.Size(292, 31);
             this.txtDiaChi.TabIndex = 7;
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(272, 218);
+            this.txtSDT.Location = new System.Drawing.Point(408, 341);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(196, 22);
+            this.txtSDT.Size = new System.Drawing.Size(292, 31);
             this.txtSDT.TabIndex = 8;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(143, 348);
+            this.dataGridView1.Location = new System.Drawing.Point(214, 544);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(843, 188);
+            this.dataGridView1.Size = new System.Drawing.Size(1264, 294);
             this.dataGridView1.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(529, 306);
+            this.label6.Location = new System.Drawing.Point(794, 478);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(127, 16);
+            this.label6.Size = new System.Drawing.Size(203, 25);
             this.label6.TabIndex = 12;
             this.label6.Text = "TÌM KÍM THEO TÊN";
             // 
             // txtTimKim
             // 
-            this.txtTimKim.Location = new System.Drawing.Point(694, 300);
+            this.txtTimKim.Location = new System.Drawing.Point(1041, 469);
+            this.txtTimKim.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTimKim.Name = "txtTimKim";
-            this.txtTimKim.Size = new System.Drawing.Size(162, 22);
+            this.txtTimKim.Size = new System.Drawing.Size(241, 31);
             this.txtTimKim.TabIndex = 13;
             // 
             // btnTim
             // 
-            this.btnTim.Location = new System.Drawing.Point(878, 300);
+            this.btnTim.Location = new System.Drawing.Point(1317, 469);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(75, 23);
+            this.btnTim.Size = new System.Drawing.Size(112, 36);
             this.btnTim.TabIndex = 14;
             this.btnTim.Text = "TÌM KÍM";
             this.btnTim.UseSelectable = true;
@@ -117,27 +125,30 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(506, 220);
+            this.btnThem.Location = new System.Drawing.Point(759, 344);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(96, 38);
+            this.btnThem.Size = new System.Drawing.Size(144, 59);
             this.btnThem.TabIndex = 15;
             this.btnThem.Text = "THÊM";
             this.btnThem.UseSelectable = true;
             // 
             // btnCapNhat
             // 
-            this.btnCapNhat.Location = new System.Drawing.Point(639, 220);
+            this.btnCapNhat.Location = new System.Drawing.Point(958, 344);
+            this.btnCapNhat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCapNhat.Name = "btnCapNhat";
-            this.btnCapNhat.Size = new System.Drawing.Size(96, 38);
+            this.btnCapNhat.Size = new System.Drawing.Size(144, 59);
             this.btnCapNhat.TabIndex = 16;
             this.btnCapNhat.Text = "CẬP NHẬT";
             this.btnCapNhat.UseSelectable = true;
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(770, 220);
+            this.btnXoa.Location = new System.Drawing.Point(1155, 344);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(96, 38);
+            this.btnXoa.Size = new System.Drawing.Size(144, 59);
             this.btnXoa.TabIndex = 17;
             this.btnXoa.Text = "XÓA";
             this.btnXoa.UseSelectable = true;
@@ -146,9 +157,11 @@
             // 
             this.groupBox1.Controls.Add(this.rdGiam);
             this.groupBox1.Controls.Add(this.rdTang);
-            this.groupBox1.Location = new System.Drawing.Point(742, 59);
+            this.groupBox1.Location = new System.Drawing.Point(1113, 92);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(244, 101);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(366, 158);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "SẮP XẾP THEO TÊN ";
@@ -156,9 +169,10 @@
             // rdGiam
             // 
             this.rdGiam.AutoSize = true;
-            this.rdGiam.Location = new System.Drawing.Point(126, 49);
+            this.rdGiam.Location = new System.Drawing.Point(189, 77);
+            this.rdGiam.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdGiam.Name = "rdGiam";
-            this.rdGiam.Size = new System.Drawing.Size(87, 17);
+            this.rdGiam.Size = new System.Drawing.Size(81, 15);
             this.rdGiam.TabIndex = 1;
             this.rdGiam.Text = "GIẢM DẦN";
             this.rdGiam.UseSelectable = true;
@@ -166,18 +180,20 @@
             // rdTang
             // 
             this.rdTang.AutoSize = true;
-            this.rdTang.Location = new System.Drawing.Point(6, 49);
+            this.rdTang.Location = new System.Drawing.Point(9, 77);
+            this.rdTang.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdTang.Name = "rdTang";
-            this.rdTang.Size = new System.Drawing.Size(88, 17);
+            this.rdTang.Size = new System.Drawing.Size(82, 15);
             this.rdTang.TabIndex = 0;
             this.rdTang.Text = "TĂNG DẦN";
             this.rdTang.UseSelectable = true;
             // 
             // btnLamMoi
             // 
-            this.btnLamMoi.Location = new System.Drawing.Point(890, 218);
+            this.btnLamMoi.Location = new System.Drawing.Point(1335, 341);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(96, 38);
+            this.btnLamMoi.Size = new System.Drawing.Size(144, 59);
             this.btnLamMoi.TabIndex = 19;
             this.btnLamMoi.Text = "LÀM MỚI";
             this.btnLamMoi.UseSelectable = true;
@@ -185,44 +201,48 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(142, 98);
+            this.metroLabel1.Location = new System.Drawing.Point(213, 153);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(82, 20);
+            this.metroLabel1.Size = new System.Drawing.Size(77, 19);
             this.metroLabel1.TabIndex = 20;
             this.metroLabel1.Text = "NHẬP TÊN ";
             // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(143, 138);
+            this.metroLabel2.Location = new System.Drawing.Point(214, 216);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(48, 20);
+            this.metroLabel2.Size = new System.Drawing.Size(46, 19);
             this.metroLabel2.TabIndex = 21;
             this.metroLabel2.Text = "EMAIL";
             // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(143, 182);
+            this.metroLabel3.Location = new System.Drawing.Point(214, 284);
+            this.metroLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(57, 20);
+            this.metroLabel3.Size = new System.Drawing.Size(55, 19);
             this.metroLabel3.TabIndex = 22;
             this.metroLabel3.Text = "ĐỊA CHỈ";
             // 
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(142, 218);
+            this.metroLabel4.Location = new System.Drawing.Point(213, 341);
+            this.metroLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(108, 20);
+            this.metroLabel4.Size = new System.Drawing.Size(103, 19);
             this.metroLabel4.TabIndex = 23;
             this.metroLabel4.Text = "SỐ ĐIỆN THOẠI";
             // 
-            // ADMIN_Employee
+            // frmAdminEmployee
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1123, 602);
+            this.ClientSize = new System.Drawing.Size(1684, 941);
             this.Controls.Add(this.metroLabel4);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel2);
@@ -240,7 +260,9 @@
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtTen);
-            this.Name = "ADMIN_Employee";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "frmAdminEmployee";
+            this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
             this.Text = "QUẢN LÝ NHÂN VIÊN";
             this.Load += new System.EventHandler(this.EMPLOYEE_frm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

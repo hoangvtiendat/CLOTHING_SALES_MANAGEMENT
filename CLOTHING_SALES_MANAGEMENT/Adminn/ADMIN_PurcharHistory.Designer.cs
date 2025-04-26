@@ -1,6 +1,6 @@
 ﻿namespace CLOTHING_SALES_MANAGEMENT
 {
-    partial class ADMIN_PurcharHistory
+    partial class frmAdminPurcharHistory
     {
         /// <summary>
         /// Required designer variable.
@@ -38,7 +38,8 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(253, 103);
+            this.metroLabel1.Location = new System.Drawing.Point(380, 161);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(0, 0);
             this.metroLabel1.TabIndex = 0;
@@ -46,41 +47,46 @@
             // 
             // metroDateTime1
             // 
-            this.metroDateTime1.Location = new System.Drawing.Point(559, 141);
-            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 30);
+            this.metroDateTime1.Location = new System.Drawing.Point(838, 220);
+            this.metroDateTime1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.Size = new System.Drawing.Size(244, 30);
+            this.metroDateTime1.Size = new System.Drawing.Size(364, 31);
             this.metroDateTime1.TabIndex = 1;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(209, 249);
+            this.dataGridView1.Location = new System.Drawing.Point(314, 389);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(702, 256);
+            this.dataGridView1.Size = new System.Drawing.Size(1053, 400);
             this.dataGridView1.TabIndex = 2;
             // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(328, 151);
+            this.metroLabel2.Location = new System.Drawing.Point(492, 236);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(166, 20);
+            this.metroLabel2.Size = new System.Drawing.Size(158, 19);
             this.metroLabel2.TabIndex = 3;
             this.metroLabel2.Text = "NHẬP NGÀY MUA HÀNG";
             // 
-            // ADMIN_PurcharHistory
+            // frmAdminPurcharHistory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1090, 595);
+            this.ClientSize = new System.Drawing.Size(1635, 930);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.metroDateTime1);
             this.Controls.Add(this.metroLabel1);
-            this.Name = "ADMIN_PurcharHistory";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "frmAdminPurcharHistory";
+            this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
             this.Text = "LỊCH SỬ MUA HÀNG";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

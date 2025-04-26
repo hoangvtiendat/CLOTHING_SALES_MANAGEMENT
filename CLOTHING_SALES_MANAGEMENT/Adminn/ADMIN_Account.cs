@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class ADMIN_Account: MetroFramework.Forms.MetroForm
+    public partial class frmAdminAccount: MetroFramework.Forms.MetroForm
     {
-        public ADMIN_Account()
+        public frmAdminAccount()
         {
             InitializeComponent();
         }

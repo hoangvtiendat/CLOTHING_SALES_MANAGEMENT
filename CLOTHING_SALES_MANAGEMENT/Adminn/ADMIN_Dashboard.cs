@@ -11,9 +11,9 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class ADMIN_Dashboard : MetroFramework.Forms.MetroForm
+    public partial class frmAdminDashboard : MetroFramework.Forms.MetroForm
     {
-        public ADMIN_Dashboard()
+        public frmAdminDashboard()
         {
             InitializeComponent();
             LoadChart();

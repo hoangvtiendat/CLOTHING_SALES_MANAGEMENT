@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class frmHoaDon : MetroFramework.Forms.MetroForm
+    public partial class frmSaleHoaDon : MetroFramework.Forms.MetroForm
     {
-        public frmHoaDon()
+        public frmSaleHoaDon()
         {
             InitializeComponent();
         }
 
         private void btnTroVe_Click(object sender, EventArgs e)
         {
-            var gioHangForm = new frmGioHang();
+            var gioHangForm = new frmSaleGioHang();
             this.Hide();
             gioHangForm.Show();
         }
@@ -31,7 +31,7 @@ namespace CLOTHING_SALES_MANAGEMENT
             if (rs == DialogResult.OK)
             {
                 this.Hide();
-                var trangChuForm = new frmTrangChu();
+                var trangChuForm = new frmSaleTrangChu();
                 trangChuForm.Show();
             }
 

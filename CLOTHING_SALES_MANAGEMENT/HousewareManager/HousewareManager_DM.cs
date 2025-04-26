@@ -11,9 +11,9 @@ using MetroFramework.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class HousewareManager_DM : MetroForm
+    public partial class frmHousewareManagerDM : MetroForm
     {
-        public HousewareManager_DM()
+        public frmHousewareManagerDM()
         {
             InitializeComponent();
             LoadCards();

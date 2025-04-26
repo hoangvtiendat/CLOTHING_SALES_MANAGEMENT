@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class ADMIN_Manage: MetroFramework.Forms.MetroForm
+    public partial class frmAdminManage: MetroFramework.Forms.MetroForm
     {
-        public ADMIN_Manage()
+        public frmAdminManage()
         {
             InitializeComponent();
         }
@@ -43,27 +43,27 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void custommnerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ADMIN_Customer());
+            OpenChildForm(new frmAdminCustomer());
         }
 
         private void accountManagementToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ADMIN_Account());
+            OpenChildForm(new frmAdminAccount());
         }
 
         private void employeeManagementToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ADMIN_Employee());
+            OpenChildForm(new frmAdminEmployee());
         }
 
         private void mnProduct_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ADMIN_Product());
+            OpenChildForm(new frmAdminProduct());
         }
 
         private void purchaseHistoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ADMIN_PurcharHistory());
+            OpenChildForm(new frmAdminPurcharHistory());
         }
 
         // Biểu đồ Doanh thu - không liên quan đến form MDI, giữ nguyên
@@ -75,7 +75,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void mnstripThongKe_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new ADMIN_Dashboard());
+            OpenChildForm(new frmAdminDashboard());
         }
     }
 }

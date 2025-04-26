@@ -1,6 +1,6 @@
 ﻿namespace CLOTHING_SALES_MANAGEMENT
 {
-    partial class ADMIN_Product
+    partial class frmAdminProduct
     {
         /// <summary>
         /// Required designer variable.
@@ -58,9 +58,10 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(167, 105);
+            this.metroLabel1.Location = new System.Drawing.Point(250, 164);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(97, 20);
+            this.metroLabel1.Size = new System.Drawing.Size(92, 19);
             this.metroLabel1.TabIndex = 0;
             this.metroLabel1.Text = "NHẬP TÊN SP";
             // 
@@ -70,16 +71,18 @@
             // 
             // 
             this.txtTenSP.CustomButton.Image = null;
-            this.txtTenSP.CustomButton.Location = new System.Drawing.Point(162, 2);
+            this.txtTenSP.CustomButton.Location = new System.Drawing.Point(358, 2);
+            this.txtTenSP.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTenSP.CustomButton.Name = "";
-            this.txtTenSP.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.txtTenSP.CustomButton.Size = new System.Drawing.Size(68, 70);
             this.txtTenSP.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtTenSP.CustomButton.TabIndex = 1;
             this.txtTenSP.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtTenSP.CustomButton.UseSelectable = true;
             this.txtTenSP.CustomButton.Visible = false;
             this.txtTenSP.Lines = new string[0];
-            this.txtTenSP.Location = new System.Drawing.Point(323, 95);
+            this.txtTenSP.Location = new System.Drawing.Point(484, 148);
+            this.txtTenSP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTenSP.MaxLength = 32767;
             this.txtTenSP.Name = "txtTenSP";
             this.txtTenSP.PasswordChar = '\0';
@@ -88,7 +91,7 @@
             this.txtTenSP.SelectionLength = 0;
             this.txtTenSP.SelectionStart = 0;
             this.txtTenSP.ShortcutsEnabled = true;
-            this.txtTenSP.Size = new System.Drawing.Size(190, 30);
+            this.txtTenSP.Size = new System.Drawing.Size(285, 47);
             this.txtTenSP.TabIndex = 2;
             this.txtTenSP.UseSelectable = true;
             this.txtTenSP.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -97,16 +100,18 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(167, 254);
+            this.metroLabel2.Location = new System.Drawing.Point(250, 397);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(84, 20);
+            this.metroLabel2.Size = new System.Drawing.Size(80, 19);
             this.metroLabel2.TabIndex = 3;
             this.metroLabel2.Text = "DANH MỤC";
             // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(390, 105);
+            this.metroLabel3.Location = new System.Drawing.Point(585, 164);
+            this.metroLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(0, 0);
             this.metroLabel3.TabIndex = 4;
@@ -114,18 +119,20 @@
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(167, 204);
+            this.metroLabel4.Location = new System.Drawing.Point(250, 319);
+            this.metroLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(80, 20);
+            this.metroLabel4.Size = new System.Drawing.Size(76, 19);
             this.metroLabel4.TabIndex = 5;
             this.metroLabel4.Text = "SỐ LƯỢNG";
             // 
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(167, 150);
+            this.metroLabel5.Location = new System.Drawing.Point(250, 234);
+            this.metroLabel5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(92, 20);
+            this.metroLabel5.Size = new System.Drawing.Size(89, 19);
             this.metroLabel5.TabIndex = 6;
             this.metroLabel5.Text = "NHẬP GIÁ SP";
             // 
@@ -135,16 +142,18 @@
             // 
             // 
             this.txtGia.CustomButton.Image = null;
-            this.txtGia.CustomButton.Location = new System.Drawing.Point(162, 2);
+            this.txtGia.CustomButton.Location = new System.Drawing.Point(358, 2);
+            this.txtGia.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGia.CustomButton.Name = "";
-            this.txtGia.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.txtGia.CustomButton.Size = new System.Drawing.Size(68, 70);
             this.txtGia.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtGia.CustomButton.TabIndex = 1;
             this.txtGia.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtGia.CustomButton.UseSelectable = true;
             this.txtGia.CustomButton.Visible = false;
             this.txtGia.Lines = new string[0];
-            this.txtGia.Location = new System.Drawing.Point(323, 141);
+            this.txtGia.Location = new System.Drawing.Point(484, 220);
+            this.txtGia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGia.MaxLength = 32767;
             this.txtGia.Name = "txtGia";
             this.txtGia.PasswordChar = '\0';
@@ -153,7 +162,7 @@
             this.txtGia.SelectionLength = 0;
             this.txtGia.SelectionStart = 0;
             this.txtGia.ShortcutsEnabled = true;
-            this.txtGia.Size = new System.Drawing.Size(190, 30);
+            this.txtGia.Size = new System.Drawing.Size(285, 47);
             this.txtGia.TabIndex = 7;
             this.txtGia.UseSelectable = true;
             this.txtGia.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -166,16 +175,18 @@
             // 
             // 
             this.txtSoluong.CustomButton.Image = null;
-            this.txtSoluong.CustomButton.Location = new System.Drawing.Point(162, 2);
+            this.txtSoluong.CustomButton.Location = new System.Drawing.Point(358, 2);
+            this.txtSoluong.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSoluong.CustomButton.Name = "";
-            this.txtSoluong.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.txtSoluong.CustomButton.Size = new System.Drawing.Size(68, 70);
             this.txtSoluong.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtSoluong.CustomButton.TabIndex = 1;
             this.txtSoluong.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtSoluong.CustomButton.UseSelectable = true;
             this.txtSoluong.CustomButton.Visible = false;
             this.txtSoluong.Lines = new string[0];
-            this.txtSoluong.Location = new System.Drawing.Point(323, 194);
+            this.txtSoluong.Location = new System.Drawing.Point(484, 303);
+            this.txtSoluong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSoluong.MaxLength = 32767;
             this.txtSoluong.Name = "txtSoluong";
             this.txtSoluong.PasswordChar = '\0';
@@ -184,7 +195,7 @@
             this.txtSoluong.SelectionLength = 0;
             this.txtSoluong.SelectionStart = 0;
             this.txtSoluong.ShortcutsEnabled = true;
-            this.txtSoluong.Size = new System.Drawing.Size(190, 30);
+            this.txtSoluong.Size = new System.Drawing.Size(285, 47);
             this.txtSoluong.TabIndex = 8;
             this.txtSoluong.UseSelectable = true;
             this.txtSoluong.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -193,19 +204,21 @@
             // cboDanhMuc
             // 
             this.cboDanhMuc.FormattingEnabled = true;
-            this.cboDanhMuc.ItemHeight = 24;
-            this.cboDanhMuc.Location = new System.Drawing.Point(323, 244);
+            this.cboDanhMuc.ItemHeight = 23;
+            this.cboDanhMuc.Location = new System.Drawing.Point(484, 381);
+            this.cboDanhMuc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboDanhMuc.Name = "cboDanhMuc";
-            this.cboDanhMuc.Size = new System.Drawing.Size(190, 30);
+            this.cboDanhMuc.Size = new System.Drawing.Size(283, 29);
             this.cboDanhMuc.TabIndex = 9;
             this.cboDanhMuc.UseSelectable = true;
             // 
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(715, 321);
+            this.metroLabel6.Location = new System.Drawing.Point(1072, 502);
+            this.metroLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(63, 20);
+            this.metroLabel6.Size = new System.Drawing.Size(61, 19);
             this.metroLabel6.TabIndex = 10;
             this.metroLabel6.Text = "TÌM KÍM ";
             // 
@@ -215,16 +228,18 @@
             // 
             // 
             this.txtTimKim.CustomButton.Image = null;
-            this.txtTimKim.CustomButton.Location = new System.Drawing.Point(109, 2);
+            this.txtTimKim.CustomButton.Location = new System.Drawing.Point(240, 2);
+            this.txtTimKim.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTimKim.CustomButton.Name = "";
-            this.txtTimKim.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.txtTimKim.CustomButton.Size = new System.Drawing.Size(68, 70);
             this.txtTimKim.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtTimKim.CustomButton.TabIndex = 1;
             this.txtTimKim.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txtTimKim.CustomButton.UseSelectable = true;
             this.txtTimKim.CustomButton.Visible = false;
             this.txtTimKim.Lines = new string[0];
-            this.txtTimKim.Location = new System.Drawing.Point(802, 311);
+            this.txtTimKim.Location = new System.Drawing.Point(1203, 486);
+            this.txtTimKim.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTimKim.MaxLength = 32767;
             this.txtTimKim.Name = "txtTimKim";
             this.txtTimKim.PasswordChar = '\0';
@@ -233,7 +248,7 @@
             this.txtTimKim.SelectionLength = 0;
             this.txtTimKim.SelectionStart = 0;
             this.txtTimKim.ShortcutsEnabled = true;
-            this.txtTimKim.Size = new System.Drawing.Size(137, 30);
+            this.txtTimKim.Size = new System.Drawing.Size(206, 47);
             this.txtTimKim.TabIndex = 11;
             this.txtTimKim.UseSelectable = true;
             this.txtTimKim.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -241,54 +256,60 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(212, 301);
+            this.btnThem.Location = new System.Drawing.Point(318, 470);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(87, 40);
+            this.btnThem.Size = new System.Drawing.Size(130, 62);
             this.btnThem.TabIndex = 12;
             this.btnThem.Text = "THÊM";
             this.btnThem.UseSelectable = true;
             // 
             // btnCapNhat
             // 
-            this.btnCapNhat.Location = new System.Drawing.Point(338, 301);
+            this.btnCapNhat.Location = new System.Drawing.Point(507, 470);
+            this.btnCapNhat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCapNhat.Name = "btnCapNhat";
-            this.btnCapNhat.Size = new System.Drawing.Size(87, 40);
+            this.btnCapNhat.Size = new System.Drawing.Size(130, 62);
             this.btnCapNhat.TabIndex = 13;
             this.btnCapNhat.Text = "CẬP NHẬT";
             this.btnCapNhat.UseSelectable = true;
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(463, 301);
+            this.btnXoa.Location = new System.Drawing.Point(694, 470);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(87, 40);
+            this.btnXoa.Size = new System.Drawing.Size(130, 62);
             this.btnXoa.TabIndex = 14;
             this.btnXoa.Text = "XÓA";
             this.btnXoa.UseSelectable = true;
             // 
             // btnLamMoi
             // 
-            this.btnLamMoi.Location = new System.Drawing.Point(585, 301);
+            this.btnLamMoi.Location = new System.Drawing.Point(878, 470);
+            this.btnLamMoi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(87, 40);
+            this.btnLamMoi.Size = new System.Drawing.Size(130, 62);
             this.btnLamMoi.TabIndex = 15;
             this.btnLamMoi.Text = "LÀM MỚI";
             this.btnLamMoi.UseSelectable = true;
             // 
             // btnTim
             // 
-            this.btnTim.Location = new System.Drawing.Point(965, 311);
+            this.btnTim.Location = new System.Drawing.Point(1448, 486);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(66, 30);
+            this.btnTim.Size = new System.Drawing.Size(99, 47);
             this.btnTim.TabIndex = 16;
             this.btnTim.Text = "TÌM";
             this.btnTim.UseSelectable = true;
             // 
             // ptImage
             // 
-            this.ptImage.Location = new System.Drawing.Point(545, 150);
+            this.ptImage.Location = new System.Drawing.Point(818, 234);
+            this.ptImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ptImage.Name = "ptImage";
-            this.ptImage.Size = new System.Drawing.Size(186, 109);
+            this.ptImage.Size = new System.Drawing.Size(279, 170);
             this.ptImage.TabIndex = 17;
             this.ptImage.TabStop = false;
             // 
@@ -296,9 +317,11 @@
             // 
             this.Sort.Controls.Add(this.rdGiam);
             this.Sort.Controls.Add(this.rdTang);
-            this.Sort.Location = new System.Drawing.Point(792, 112);
+            this.Sort.Location = new System.Drawing.Point(1188, 175);
+            this.Sort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Sort.Name = "Sort";
-            this.Sort.Size = new System.Drawing.Size(239, 112);
+            this.Sort.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Sort.Size = new System.Drawing.Size(358, 175);
             this.Sort.TabIndex = 18;
             this.Sort.TabStop = false;
             this.Sort.Text = "SẮP XẾP THEO TÊN";
@@ -306,9 +329,10 @@
             // rdGiam
             // 
             this.rdGiam.AutoSize = true;
-            this.rdGiam.Location = new System.Drawing.Point(134, 42);
+            this.rdGiam.Location = new System.Drawing.Point(201, 66);
+            this.rdGiam.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdGiam.Name = "rdGiam";
-            this.rdGiam.Size = new System.Drawing.Size(87, 17);
+            this.rdGiam.Size = new System.Drawing.Size(81, 15);
             this.rdGiam.TabIndex = 1;
             this.rdGiam.Text = "GIẢM DẦN";
             this.rdGiam.UseSelectable = true;
@@ -316,9 +340,10 @@
             // rdTang
             // 
             this.rdTang.AutoSize = true;
-            this.rdTang.Location = new System.Drawing.Point(10, 41);
+            this.rdTang.Location = new System.Drawing.Point(15, 64);
+            this.rdTang.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rdTang.Name = "rdTang";
-            this.rdTang.Size = new System.Drawing.Size(88, 17);
+            this.rdTang.Size = new System.Drawing.Size(82, 15);
             this.rdTang.TabIndex = 0;
             this.rdTang.Text = "TĂNG DẦN";
             this.rdTang.UseSelectable = true;
@@ -326,28 +351,30 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(167, 376);
+            this.dataGridView1.Location = new System.Drawing.Point(250, 588);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(864, 200);
+            this.dataGridView1.Size = new System.Drawing.Size(1296, 312);
             this.dataGridView1.TabIndex = 19;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // metroLabel7
             // 
             this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(569, 105);
+            this.metroLabel7.Location = new System.Drawing.Point(854, 164);
+            this.metroLabel7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(137, 20);
+            this.metroLabel7.Size = new System.Drawing.Size(132, 19);
             this.metroLabel7.TabIndex = 20;
             this.metroLabel7.Text = "TẢI ẢNH SẢN PHẨM";
             // 
-            // ADMIN_Product
+            // frmAdminProduct
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1159, 626);
+            this.ClientSize = new System.Drawing.Size(1738, 978);
             this.Controls.Add(this.metroLabel7);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Sort);
@@ -368,7 +395,9 @@
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.txtTenSP);
             this.Controls.Add(this.metroLabel1);
-            this.Name = "ADMIN_Product";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "frmAdminProduct";
+            this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
             this.Text = "Quản Lý Sản Phẩm";
             this.Load += new System.EventHandler(this.ADMIN_Product_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptImage)).EndInit();

@@ -1,6 +1,6 @@
 ﻿namespace CLOTHING_SALES_MANAGEMENT
 {
-    partial class HousewareManager_DM
+    partial class frmHousewareManagerDM
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -56,17 +56,17 @@
             this.metroLabelTitle.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.metroLabelTitle.Location = new System.Drawing.Point(47, 27);
             this.metroLabelTitle.Name = "metroLabelTitle";
-            this.metroLabelTitle.Size = new System.Drawing.Size(118, 25);
+            this.metroLabelTitle.Size = new System.Drawing.Size(112, 25);
             this.metroLabelTitle.TabIndex = 0;
             this.metroLabelTitle.Text = "DANH MỤC";
             // 
             // comboDanhMuc
             // 
             this.comboDanhMuc.FormattingEnabled = true;
-            this.comboDanhMuc.ItemHeight = 24;
+            this.comboDanhMuc.ItemHeight = 23;
             this.comboDanhMuc.Location = new System.Drawing.Point(196, 25);
             this.comboDanhMuc.Name = "comboDanhMuc";
-            this.comboDanhMuc.Size = new System.Drawing.Size(250, 30);
+            this.comboDanhMuc.Size = new System.Drawing.Size(250, 29);
             this.comboDanhMuc.TabIndex = 1;
             this.comboDanhMuc.UseSelectable = true;
             // 
@@ -292,12 +292,12 @@
             this.btnEditDanhMuc.Text = "✏";
             this.btnEditDanhMuc.Click += new System.EventHandler(this.btnEditDanhMuc_Click);
             // 
-            // HousewareManager_DM
+            // frmHousewareManagerDM
             // 
             this.ClientSize = new System.Drawing.Size(952, 563);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.panelHeader);
-            this.Name = "HousewareManager_DM";
+            this.Name = "frmHousewareManagerDM";
             this.Text = "WAREHOUSE MANAGEMENT";
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();

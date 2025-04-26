@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class frmTrangChu : MetroFramework.Forms.MetroForm
+    public partial class frmSaleTrangChu : MetroFramework.Forms.MetroForm
     {
-        public frmTrangChu()
+        public frmSaleTrangChu()
         {
             InitializeComponent();
             cbSapXep.Items.Add("GIÁ THẤP ĐẾN CAO");
@@ -21,7 +21,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void btnGioHang_Click(object sender, EventArgs e)
         {
-            var gioHangForm = new frmGioHang();
+            var gioHangForm = new frmSaleGioHang();
             gioHangForm.Show();
             this.Hide();
         }
@@ -45,6 +45,13 @@ namespace CLOTHING_SALES_MANAGEMENT
 
             // Cập nhật danh sách sản phẩm trên giao diện (ví dụ sử dụng DataGridView)
             //dataGridView.DataSource = products;
+        }
+
+        private void btnGioHang_Click_1(object sender, EventArgs e)
+        {
+            var gioHangForm = new frmSaleGioHang();
+            gioHangForm.Show();
+            this.Hide();
         }
     }
 }

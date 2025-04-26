@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class frmGioHang : MetroFramework.Forms.MetroForm
+    public partial class frmSaleGioHang : MetroFramework.Forms.MetroForm
     {
-        public frmGioHang()
+        public frmSaleGioHang()
         {
             InitializeComponent();
             //this.AutoSize = false;
@@ -25,14 +25,14 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void btnTroVe_Click(object sender, EventArgs e)
         {
-            var trangChuForm = new frmTrangChu();
+            var trangChuForm = new frmSaleTrangChu();
             trangChuForm.Show();
             this.Hide();
         }
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            var hoaDonForm = new frmHoaDon();
+            var hoaDonForm = new frmSaleHoaDon();
             hoaDonForm.Show();
             this.Hide();
         }
