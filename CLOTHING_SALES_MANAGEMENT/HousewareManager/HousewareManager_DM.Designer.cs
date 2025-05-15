@@ -18,6 +18,8 @@
             this.metroLabelTitle = new MetroFramework.Controls.MetroLabel();
             this.comboDanhMuc = new MetroFramework.Controls.MetroComboBox();
             this.btnThem = new MetroFramework.Controls.MetroButton();
+            this.btnEditDanhMuc = new System.Windows.Forms.Button();
+            this.btnAddProduct = new System.Windows.Forms.Button();
             this.panelThemDanhMuc = new System.Windows.Forms.Panel();
             this.txtTenDanhMuc = new MetroFramework.Controls.MetroTextBox();
             this.btnLuu = new MetroFramework.Controls.MetroButton();
@@ -28,13 +30,23 @@
             this.btnCapNhat = new MetroFramework.Controls.MetroButton();
             this.btnXoaDanhMuc = new MetroFramework.Controls.MetroButton();
             this.btnTroVe = new MetroFramework.Controls.MetroButton();
-            this.txtDanhMuc = new MetroFramework.Controls.MetroTextBox();
+            this.panelAddProduct = new System.Windows.Forms.Panel();
+            this.txtProductName = new MetroFramework.Controls.MetroTextBox();
+            this.txtProductPrice = new MetroFramework.Controls.MetroTextBox();
+            this.nudProductQuantity = new System.Windows.Forms.NumericUpDown();
+            this.pbProductImage = new System.Windows.Forms.PictureBox();
+            this.btnChooseProductImage = new System.Windows.Forms.Button();
+            this.btnSaveProduct = new System.Windows.Forms.Button();
+            this.btn_UpdateP = new System.Windows.Forms.Button();
+            this.btnCancelAddProduct = new System.Windows.Forms.Button();
             this.panelCards = new System.Windows.Forms.Panel();
-            this.btnEditDanhMuc = new System.Windows.Forms.Button();
             this.panelHeader.SuspendLayout();
             this.panelThemDanhMuc.SuspendLayout();
             this.metroPanel1.SuspendLayout();
             this.panelEditDanhMuc.SuspendLayout();
+            this.panelAddProduct.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProductQuantity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProductImage)).BeginInit();
             this.SuspendLayout();
             // 
             // panelHeader
@@ -43,6 +55,8 @@
             this.panelHeader.Controls.Add(this.metroLabelTitle);
             this.panelHeader.Controls.Add(this.comboDanhMuc);
             this.panelHeader.Controls.Add(this.btnThem);
+            this.panelHeader.Controls.Add(this.btnEditDanhMuc);
+            this.panelHeader.Controls.Add(this.btnAddProduct);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(20, 60);
             this.panelHeader.Name = "panelHeader";
@@ -63,10 +77,10 @@
             // comboDanhMuc
             // 
             this.comboDanhMuc.FormattingEnabled = true;
-            this.comboDanhMuc.ItemHeight = 23;
+            this.comboDanhMuc.ItemHeight = 24;
             this.comboDanhMuc.Location = new System.Drawing.Point(196, 25);
             this.comboDanhMuc.Name = "comboDanhMuc";
-            this.comboDanhMuc.Size = new System.Drawing.Size(250, 29);
+            this.comboDanhMuc.Size = new System.Drawing.Size(250, 30);
             this.comboDanhMuc.TabIndex = 1;
             this.comboDanhMuc.UseSelectable = true;
             // 
@@ -74,15 +88,40 @@
             // 
             this.btnThem.BackColor = System.Drawing.Color.DarkBlue;
             this.btnThem.ForeColor = System.Drawing.Color.White;
-            this.btnThem.Location = new System.Drawing.Point(495, 25);
+            this.btnThem.Location = new System.Drawing.Point(503, 25);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(100, 30);
+            this.btnThem.Size = new System.Drawing.Size(145, 30);
             this.btnThem.TabIndex = 2;
-            this.btnThem.Text = "➕ THÊM";
+            this.btnThem.Text = "➕ THÊM DANH MỤC";
             this.btnThem.UseCustomBackColor = true;
             this.btnThem.UseCustomForeColor = true;
             this.btnThem.UseSelectable = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // btnEditDanhMuc
+            // 
+            this.btnEditDanhMuc.BackColor = System.Drawing.Color.MintCream;
+            this.btnEditDanhMuc.FlatAppearance.BorderSize = 0;
+            this.btnEditDanhMuc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditDanhMuc.Location = new System.Drawing.Point(452, 25);
+            this.btnEditDanhMuc.Name = "btnEditDanhMuc";
+            this.btnEditDanhMuc.Size = new System.Drawing.Size(37, 30);
+            this.btnEditDanhMuc.TabIndex = 5;
+            this.btnEditDanhMuc.Text = "✏";
+            this.btnEditDanhMuc.UseVisualStyleBackColor = false;
+            this.btnEditDanhMuc.Click += new System.EventHandler(this.btnEditDanhMuc_Click);
+            // 
+            // btnAddProduct
+            // 
+            this.btnAddProduct.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnAddProduct.ForeColor = System.Drawing.Color.White;
+            this.btnAddProduct.Location = new System.Drawing.Point(673, 25);
+            this.btnAddProduct.Name = "btnAddProduct";
+            this.btnAddProduct.Size = new System.Drawing.Size(148, 30);
+            this.btnAddProduct.TabIndex = 6;
+            this.btnAddProduct.Text = "➕ Thêm sản phẩm";
+            this.btnAddProduct.UseVisualStyleBackColor = false;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // panelThemDanhMuc
             // 
@@ -91,7 +130,7 @@
             this.panelThemDanhMuc.Controls.Add(this.txtTenDanhMuc);
             this.panelThemDanhMuc.Controls.Add(this.btnLuu);
             this.panelThemDanhMuc.Controls.Add(this.btnHuy);
-            this.panelThemDanhMuc.Location = new System.Drawing.Point(502, 0);
+            this.panelThemDanhMuc.Location = new System.Drawing.Point(502, 4);
             this.panelThemDanhMuc.Name = "panelThemDanhMuc";
             this.panelThemDanhMuc.Size = new System.Drawing.Size(310, 149);
             this.panelThemDanhMuc.TabIndex = 1;
@@ -135,7 +174,7 @@
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(75, 33);
             this.btnLuu.TabIndex = 1;
-            this.btnLuu.Text = "LƯU";
+            this.btnLuu.Text = "THÊM";
             this.btnLuu.UseSelectable = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
@@ -151,11 +190,10 @@
             // 
             // metroPanel1
             // 
-            this.metroPanel1.Controls.Add(this.panelEditDanhMuc);
-            this.metroPanel1.Controls.Add(this.txtDanhMuc);
             this.metroPanel1.Controls.Add(this.panelThemDanhMuc);
+            this.metroPanel1.Controls.Add(this.panelEditDanhMuc);
+            this.metroPanel1.Controls.Add(this.panelAddProduct);
             this.metroPanel1.Controls.Add(this.panelCards);
-            this.metroPanel1.Controls.Add(this.btnEditDanhMuc);
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
@@ -166,6 +204,8 @@
             this.metroPanel1.VerticalScrollbarBarColor = true;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
+            this.metroPanel1.Click += new System.EventHandler(this.metroPanel1_Click);
+            this.metroPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.metroPanel1_Paint);
             // 
             // panelEditDanhMuc
             // 
@@ -174,7 +214,7 @@
             this.panelEditDanhMuc.Controls.Add(this.btnCapNhat);
             this.panelEditDanhMuc.Controls.Add(this.btnXoaDanhMuc);
             this.panelEditDanhMuc.Controls.Add(this.btnTroVe);
-            this.panelEditDanhMuc.Location = new System.Drawing.Point(196, 3);
+            this.panelEditDanhMuc.Location = new System.Drawing.Point(142, 3);
             this.panelEditDanhMuc.Name = "panelEditDanhMuc";
             this.panelEditDanhMuc.Size = new System.Drawing.Size(300, 130);
             this.panelEditDanhMuc.TabIndex = 3;
@@ -242,55 +282,166 @@
             this.btnTroVe.UseSelectable = true;
             this.btnTroVe.Click += new System.EventHandler(this.btnTroVe_Click);
             // 
-            // txtDanhMuc
+            // panelAddProduct
+            // 
+            this.panelAddProduct.BackColor = System.Drawing.Color.LightYellow;
+            this.panelAddProduct.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelAddProduct.Controls.Add(this.txtProductName);
+            this.panelAddProduct.Controls.Add(this.txtProductPrice);
+            this.panelAddProduct.Controls.Add(this.nudProductQuantity);
+            this.panelAddProduct.Controls.Add(this.pbProductImage);
+            this.panelAddProduct.Controls.Add(this.btnChooseProductImage);
+            this.panelAddProduct.Controls.Add(this.btnSaveProduct);
+            this.panelAddProduct.Controls.Add(this.btn_UpdateP);
+            this.panelAddProduct.Controls.Add(this.btnCancelAddProduct);
+            this.panelAddProduct.Location = new System.Drawing.Point(502, 4);
+            this.panelAddProduct.Name = "panelAddProduct";
+            this.panelAddProduct.Size = new System.Drawing.Size(330, 300);
+            this.panelAddProduct.TabIndex = 5;
+            this.panelAddProduct.Visible = false;
+            // 
+            // txtProductName
             // 
             // 
             // 
             // 
-            this.txtDanhMuc.CustomButton.Image = null;
-            this.txtDanhMuc.CustomButton.Location = new System.Drawing.Point(114, 1);
-            this.txtDanhMuc.CustomButton.Name = "";
-            this.txtDanhMuc.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtDanhMuc.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtDanhMuc.CustomButton.TabIndex = 1;
-            this.txtDanhMuc.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtDanhMuc.CustomButton.UseSelectable = true;
-            this.txtDanhMuc.CustomButton.Visible = false;
-            this.txtDanhMuc.Lines = new string[0];
-            this.txtDanhMuc.Location = new System.Drawing.Point(20, 13);
-            this.txtDanhMuc.MaxLength = 32767;
-            this.txtDanhMuc.Name = "txtDanhMuc";
-            this.txtDanhMuc.PasswordChar = '\0';
-            this.txtDanhMuc.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtDanhMuc.SelectedText = "";
-            this.txtDanhMuc.SelectionLength = 0;
-            this.txtDanhMuc.SelectionStart = 0;
-            this.txtDanhMuc.ShortcutsEnabled = true;
-            this.txtDanhMuc.Size = new System.Drawing.Size(136, 23);
-            this.txtDanhMuc.TabIndex = 2;
-            this.txtDanhMuc.UseSelectable = true;
-            this.txtDanhMuc.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtDanhMuc.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.txtProductName.CustomButton.Image = null;
+            this.txtProductName.CustomButton.Location = new System.Drawing.Point(252, 2);
+            this.txtProductName.CustomButton.Name = "";
+            this.txtProductName.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.txtProductName.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtProductName.CustomButton.TabIndex = 1;
+            this.txtProductName.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtProductName.CustomButton.UseSelectable = true;
+            this.txtProductName.CustomButton.Visible = false;
+            this.txtProductName.Lines = new string[0];
+            this.txtProductName.Location = new System.Drawing.Point(20, 20);
+            this.txtProductName.MaxLength = 32767;
+            this.txtProductName.Name = "txtProductName";
+            this.txtProductName.PasswordChar = '\0';
+            this.txtProductName.PromptText = "Tên sản phẩm";
+            this.txtProductName.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtProductName.SelectedText = "";
+            this.txtProductName.SelectionLength = 0;
+            this.txtProductName.SelectionStart = 0;
+            this.txtProductName.ShortcutsEnabled = true;
+            this.txtProductName.Size = new System.Drawing.Size(280, 30);
+            this.txtProductName.TabIndex = 0;
+            this.txtProductName.UseSelectable = true;
+            this.txtProductName.WaterMark = "Tên sản phẩm";
+            this.txtProductName.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtProductName.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // txtProductPrice
+            // 
+            // 
+            // 
+            // 
+            this.txtProductPrice.CustomButton.Image = null;
+            this.txtProductPrice.CustomButton.Location = new System.Drawing.Point(252, 2);
+            this.txtProductPrice.CustomButton.Name = "";
+            this.txtProductPrice.CustomButton.Size = new System.Drawing.Size(25, 25);
+            this.txtProductPrice.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtProductPrice.CustomButton.TabIndex = 1;
+            this.txtProductPrice.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtProductPrice.CustomButton.UseSelectable = true;
+            this.txtProductPrice.CustomButton.Visible = false;
+            this.txtProductPrice.Lines = new string[0];
+            this.txtProductPrice.Location = new System.Drawing.Point(20, 60);
+            this.txtProductPrice.MaxLength = 32767;
+            this.txtProductPrice.Name = "txtProductPrice";
+            this.txtProductPrice.PasswordChar = '\0';
+            this.txtProductPrice.PromptText = "Giá sản phẩm";
+            this.txtProductPrice.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtProductPrice.SelectedText = "";
+            this.txtProductPrice.SelectionLength = 0;
+            this.txtProductPrice.SelectionStart = 0;
+            this.txtProductPrice.ShortcutsEnabled = true;
+            this.txtProductPrice.Size = new System.Drawing.Size(280, 30);
+            this.txtProductPrice.TabIndex = 1;
+            this.txtProductPrice.UseSelectable = true;
+            this.txtProductPrice.WaterMark = "Giá sản phẩm";
+            this.txtProductPrice.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtProductPrice.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // nudProductQuantity
+            // 
+            this.nudProductQuantity.Location = new System.Drawing.Point(20, 100);
+            this.nudProductQuantity.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.nudProductQuantity.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudProductQuantity.Name = "nudProductQuantity";
+            this.nudProductQuantity.Size = new System.Drawing.Size(280, 22);
+            this.nudProductQuantity.TabIndex = 2;
+            this.nudProductQuantity.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // pbProductImage
+            // 
+            this.pbProductImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbProductImage.Location = new System.Drawing.Point(20, 140);
+            this.pbProductImage.Name = "pbProductImage";
+            this.pbProductImage.Size = new System.Drawing.Size(150, 100);
+            this.pbProductImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbProductImage.TabIndex = 3;
+            this.pbProductImage.TabStop = false;
+            // 
+            // btnChooseProductImage
+            // 
+            this.btnChooseProductImage.Location = new System.Drawing.Point(180, 140);
+            this.btnChooseProductImage.Name = "btnChooseProductImage";
+            this.btnChooseProductImage.Size = new System.Drawing.Size(120, 30);
+            this.btnChooseProductImage.TabIndex = 4;
+            this.btnChooseProductImage.Text = "Chọn ảnh";
+            this.btnChooseProductImage.Click += new System.EventHandler(this.btnChooseProductImage_Click);
+            // 
+            // btnSaveProduct
+            // 
+            this.btnSaveProduct.Location = new System.Drawing.Point(20, 250);
+            this.btnSaveProduct.Name = "btnSaveProduct";
+            this.btnSaveProduct.Size = new System.Drawing.Size(80, 30);
+            this.btnSaveProduct.TabIndex = 5;
+            this.btnSaveProduct.Text = "Lưu";
+            this.btnSaveProduct.Click += new System.EventHandler(this.btnSaveProduct_Click);
+            // 
+            // btn_UpdateP
+            // 
+            this.btn_UpdateP.Location = new System.Drawing.Point(229, 250);
+            this.btn_UpdateP.Name = "btn_UpdateP";
+            this.btn_UpdateP.Size = new System.Drawing.Size(80, 30);
+            this.btn_UpdateP.TabIndex = 6;
+            this.btn_UpdateP.Text = "Sửa";
+            this.btn_UpdateP.Click += new System.EventHandler(this.btn_UpdateP_Click);
+            // 
+            // btnCancelAddProduct
+            // 
+            this.btnCancelAddProduct.Location = new System.Drawing.Point(124, 250);
+            this.btnCancelAddProduct.Name = "btnCancelAddProduct";
+            this.btnCancelAddProduct.Size = new System.Drawing.Size(80, 30);
+            this.btnCancelAddProduct.TabIndex = 6;
+            this.btnCancelAddProduct.Text = "Hủy";
+            this.btnCancelAddProduct.Click += new System.EventHandler(this.btnCancelAddProduct_Click);
             // 
             // panelCards
             // 
             this.panelCards.AutoScroll = true;
             this.panelCards.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panelCards.Location = new System.Drawing.Point(20, 60);
+            this.panelCards.Location = new System.Drawing.Point(20, 61);
             this.panelCards.Name = "panelCards";
             this.panelCards.Size = new System.Drawing.Size(900, 350);
             this.panelCards.TabIndex = 4;
-            // 
-            // btnEditDanhMuc
-            // 
-            this.btnEditDanhMuc.FlatAppearance.BorderSize = 0;
-            this.btnEditDanhMuc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditDanhMuc.Location = new System.Drawing.Point(160, 13);
-            this.btnEditDanhMuc.Name = "btnEditDanhMuc";
-            this.btnEditDanhMuc.Size = new System.Drawing.Size(30, 23);
-            this.btnEditDanhMuc.TabIndex = 5;
-            this.btnEditDanhMuc.Text = "✏";
-            this.btnEditDanhMuc.Click += new System.EventHandler(this.btnEditDanhMuc_Click);
+            this.panelCards.Click += new System.EventHandler(this.panelCards_Click);
+            this.panelCards.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCards_Paint);
             // 
             // frmHousewareManagerDM
             // 
@@ -304,9 +455,13 @@
             this.panelThemDanhMuc.ResumeLayout(false);
             this.metroPanel1.ResumeLayout(false);
             this.panelEditDanhMuc.ResumeLayout(false);
+            this.panelAddProduct.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nudProductQuantity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbProductImage)).EndInit();
             this.ResumeLayout(false);
 
         }
+
 
         #endregion
         private System.Windows.Forms.Panel panelThemDanhMuc;
@@ -318,7 +473,6 @@
         private MetroFramework.Controls.MetroComboBox comboDanhMuc;
         private MetroFramework.Controls.MetroButton btnThem;
         private MetroFramework.Controls.MetroPanel metroPanel1;
-        private MetroFramework.Controls.MetroTextBox txtDanhMuc;
         private System.Windows.Forms.Panel panelCards;
         private System.Windows.Forms.Button btnEditDanhMuc;
         private System.Windows.Forms.Panel panelEditDanhMuc;
@@ -326,5 +480,15 @@
         private MetroFramework.Controls.MetroButton btnCapNhat;
         private MetroFramework.Controls.MetroButton btnXoaDanhMuc;
         private MetroFramework.Controls.MetroButton btnTroVe;
+        private System.Windows.Forms.Button btnAddProduct;
+        private System.Windows.Forms.Panel panelAddProduct;
+        private MetroFramework.Controls.MetroTextBox txtProductName;
+        private MetroFramework.Controls.MetroTextBox txtProductPrice;
+        private System.Windows.Forms.NumericUpDown nudProductQuantity;
+        private System.Windows.Forms.PictureBox pbProductImage;
+        private System.Windows.Forms.Button btnChooseProductImage;
+        private System.Windows.Forms.Button btnSaveProduct;
+        private System.Windows.Forms.Button btnCancelAddProduct;
+        private System.Windows.Forms.Button btn_UpdateP;
     }
 }

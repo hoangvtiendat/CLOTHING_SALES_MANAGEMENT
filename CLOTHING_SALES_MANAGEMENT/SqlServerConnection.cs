@@ -10,7 +10,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 {
     class SqlServerConnection
     {
-        private string connectionString = @"Data Source=HOANGVANTIEBBFD;Initial Catalog=CMU_CS_447_GROUP_PROJECT;User ID=sa;Password=Tiendat@123;";
+        private string connectionString = @"Data Source=LAPTOP-68GDOI8K\MAYCUONG;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True";
 
         private SqlConnection connection;
 
@@ -49,7 +49,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 throw new Exception("Error Close connection: ", ex);
             }
         }
-
+        
         public int ExecuteNonQuery(string query)
         {
             try

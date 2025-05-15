@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CLOTHING_SALES_MANAGEMENT"
+    "\\CLOTHING_SALES_MANAGEMENT",
+    "\\CLOTHING_SALES_MANAGEMENT\\HousewareManager"
   ],
   "SelectedNode": "\\CLOTHING_SALES_MANAGEMENT.sln",
   "PreviewInSolutionExplorer": false
