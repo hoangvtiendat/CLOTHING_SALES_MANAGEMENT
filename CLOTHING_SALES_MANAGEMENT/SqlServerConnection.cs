@@ -10,13 +10,13 @@ namespace CLOTHING_SALES_MANAGEMENT
 {
     class SqlServerConnection
     {
-        private string connectionString = @"Data Source=HOANGVANTIEBBFD;Initial Catalog=CMU_CS_447_GROUP_PROJECT;User ID=sa;Password=Tiendat@123;";
+        private string connectionString = @"Data Source=DESKTOP-LL4RPA7\SQLEXPRESS;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True;";
 
         private SqlConnection connection;
 
         public SqlServerConnection()
         {
-            connection = new SqlConnection(connectionString); // Fix the constructor call
+            connection = new SqlConnection(connectionString); 
         }
 
         public void OpenConnection()
@@ -91,18 +91,19 @@ namespace CLOTHING_SALES_MANAGEMENT
             }
         }
 
-        public object ExecuteScalar(string query)
+        public int ExecuteScalar(string query)
         {
             try
             {
                 OpenConnection();
                 SqlCommand command = new SqlCommand(query, connection);
                 object result = command.ExecuteScalar();
-                return result;
+
+                return result != null ? Convert.ToInt32(result) : 0;
             }
             catch (Exception ex)
             {
-                throw new Exception("Error Execute Scalar:", ex);
+                throw new Exception("loi execute scalar ", ex);
             }
             finally
             {

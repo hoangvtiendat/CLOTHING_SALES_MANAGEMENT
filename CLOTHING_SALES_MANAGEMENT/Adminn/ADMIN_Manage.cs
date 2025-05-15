@@ -15,6 +15,11 @@ namespace CLOTHING_SALES_MANAGEMENT
         public frmAdminManage()
         {
             InitializeComponent();
+            this.Width = 1000;
+            this.Height = 600;
+
+            // (Tùy chọn) Căn giữa màn hình
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         // Hàm dùng để mở form con

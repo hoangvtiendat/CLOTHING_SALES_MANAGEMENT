@@ -1,50 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\",
+  "WorkspaceRootPath": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|c:\\mac\\home\\downloads\\hoangvantiendat\\duytanuniversity\\cmu_cs 447\\clothing_sales_management\\clothing_sales_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_customer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_customer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\adminn\\admin_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\adminn\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_sanphamcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_sanphamcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\adminn\\admin_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_trangchu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_trangchu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\adminn\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_purcharhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_purcharhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_manage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_manage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_manage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_manage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\cdio\\clothing_sales_management\\clothing_sales_management\\clothing_sales_management\\adminn\\admin_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\adminn\\admin_account.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_account.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\adminn\\admin_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\adminn\\admin_employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\sqlserverconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\sqlserverconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_sanphamcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_sanphamcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\salestaff\\sale_giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\salestaff\\sale_giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,95 +110,190 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SALE_TrangChu.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "ViewState": "AgIAABYAAAAA2szMzMzUvx4AAAAXAAAAAAAAAA==",
+              "Title": "ADMIN_Customer.Designer.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.Designer.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.Designer.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.Designer.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.Designer.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAYwNgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:31:20.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SALE_TrangChu.Designer.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
-              "ViewState": "AgIAAFUAAACA/v////8uwJsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:27:52.688Z"
+              "WhenOpened": "2025-05-15T10:37:12.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SALE_TrangChu.cs [Design]",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs [Design]",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs [Design]",
+              "Title": "ADMIN_Employee.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:20:28.06Z"
+              "WhenOpened": "2025-05-12T13:12:05.813Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SALE_SanPhamCard.cs [Design]",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs [Design]",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "ADMIN_Customer.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:20:13.919Z"
+              "WhenOpened": "2025-05-15T09:14:46.597Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SALE_HoaDon.cs [Design]",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs [Design]",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "ADMIN_Customer.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Customer.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAAwKAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:19:57.263Z"
+              "WhenOpened": "2025-05-15T09:48:59.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SALE_GioHang.cs [Design]",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs [Design]",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs [Design]",
+              "Title": "ADMIN_Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T19:19:39.997Z"
+              "WhenOpened": "2025-05-09T06:12:38.474Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SqlServerConnection.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
-              "ViewState": "AgIAAEwAAACAmpmZmRkUwGQAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ADMIN_Account.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T18:53:11.704Z"
+              "WhenOpened": "2025-05-15T10:27:31.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ADMIN_Account.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:28:01.498Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ADMIN_Dashboard.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Dashboard.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwC0AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:13:52.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ADMIN_PurcharHistory.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_PurcharHistory.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_PurcharHistory.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_PurcharHistory.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_PurcharHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:15:01.428Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ADMIN_Manage.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:18:25.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ADMIN_Manage.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Manage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:14:58.367Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ADMIN_Product.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Product.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Product.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Product.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Product.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:14:59.947Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ADMIN_Account.Designer.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.Designer.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.Designer.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.Designer.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Account.Designer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:12:37.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ADMIN_Employee.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Adminn\\ADMIN_Employee.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:12:08.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Program.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Program.cs",
               "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Program.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Program.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Program.cs",
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,41 +301,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
+              "Title": "SALE_SanPhamCard.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_SanPhamCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:20:13.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SqlServerConnection.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SqlServerConnection.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:53:11.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LOGIN.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:44:17.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SALE_TrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
+              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:20:28.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SALE_HoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:19:57.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LOGIN.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
+              "ViewState": "AgIAAAwAAABgzszMzMw4wE0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:44:09.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SALE_TrangChu.Designer.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.Designer.cs",
+              "ViewState": "AgIAAFUAAACA/v////8uwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:27:52.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SALE_TrangChu.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
+              "ViewState": "AgIAABYAAAAA2szMzMzUvx4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:31:20.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SALE_GioHang.cs [Design]",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs",
+              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs [Design]",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:19:39.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "LOGIN.Designer.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs",
+              "DocumentMoniker": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs",
               "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs",
+              "ToolTip": "D:\\CDIO\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs",
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\LOGIN.Designer.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAAAUwIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T18:45:15.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LOGIN.cs [Design]",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs [Design]",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T18:44:17.284Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LOGIN.cs",
-              "DocumentMoniker": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
-              "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
-              "ToolTip": "C:\\Mac\\Home\\Downloads\\hoangVanTienDat\\DuyTanUniversity\\CMU_CS 447\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\LOGIN.cs",
-              "ViewState": "AgIAACgAAADAnJmZmZkrwCcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T18:44:09.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T18:45:15.469Z"
             }
           ]
         }
