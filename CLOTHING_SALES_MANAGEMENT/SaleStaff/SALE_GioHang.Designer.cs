@@ -126,6 +126,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "GIỎ HÀNG";
             this.UseWaitCursor = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmSaleGioHang_FormClosing);
             this.Load += new System.EventHandler(this.frmSaleGioHang_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

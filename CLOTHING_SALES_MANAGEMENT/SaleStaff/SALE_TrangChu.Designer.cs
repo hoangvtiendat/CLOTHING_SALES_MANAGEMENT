@@ -189,6 +189,7 @@
             this.Controls.Add(this.panel2);
             this.Name = "frmSaleTrangChu";
             this.Text = "SALE STAFF";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmSaleTrangChu_FormClosing);
             this.Load += new System.EventHandler(this.frmSaleTrangChu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

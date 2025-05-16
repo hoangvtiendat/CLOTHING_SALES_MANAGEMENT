@@ -63,6 +63,7 @@ namespace CLOTHING_SALES_MANAGEMENT
             {
                 MessageBox.Show("Không có sản phẩm nào trong giỏ hàng để thanh toán.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
         private void frmSaleGioHang_Load(object sender, EventArgs e)
         {
@@ -310,7 +311,14 @@ namespace CLOTHING_SALES_MANAGEMENT
             return quantity;
         }
 
-       
+        private void frmSaleGioHang_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true; // Huỷ việc đóng form
+            }
+        }
     }
     public class Product
     {

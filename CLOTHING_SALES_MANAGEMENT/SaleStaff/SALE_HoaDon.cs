@@ -391,5 +391,14 @@ namespace CLOTHING_SALES_MANAGEMENT
                 txtDiaChi.Text = string.Empty;
             }
         }
+
+        private void frmSaleHoaDon_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true; // Huỷ việc đóng form
+            }
+        }
     }
 }

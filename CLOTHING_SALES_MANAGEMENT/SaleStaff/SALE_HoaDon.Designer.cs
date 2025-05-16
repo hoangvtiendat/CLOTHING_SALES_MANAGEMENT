@@ -324,6 +324,7 @@
             this.Controls.Add(this.pnHoaDon);
             this.Name = "frmSaleHoaDon";
             this.Text = "HÓA ĐƠN";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmSaleHoaDon_FormClosing);
             this.Load += new System.EventHandler(this.frmSaleHoaDon_Load);
             this.pnHoaDon.ResumeLayout(false);
             this.pnHoaDon.PerformLayout();
