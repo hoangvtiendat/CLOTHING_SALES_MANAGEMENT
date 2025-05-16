@@ -16,5 +16,10 @@ namespace CLOTHING_SALES_MANAGEMENT
         {
             InitializeComponent();
         }
+
+        private void SALE_SanPhamCard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

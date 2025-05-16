@@ -88,5 +88,10 @@ namespace CLOTHING_SALES_MANAGEMENT
             }
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

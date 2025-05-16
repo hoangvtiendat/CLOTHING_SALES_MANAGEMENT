@@ -10,7 +10,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 {
     class SqlServerConnection
     {
-        private string connectionString = @"Data Source=HOANGVANTIEBBFD;Initial Catalog=CMU_CS_447_GROUP_PROJECT;User ID=sa;Password=Tiendat@123;";
+        private string connectionString = @"Data Source=DESKTOP-9897340;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True;Encrypt=False;TrustServerCertificate=True";
 
         private SqlConnection connection;
 

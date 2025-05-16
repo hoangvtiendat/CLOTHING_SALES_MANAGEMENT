@@ -47,9 +47,9 @@
             // pbAnh
             // 
             this.pbAnh.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.pbAnh.Location = new System.Drawing.Point(8, 12);
+            this.pbAnh.Location = new System.Drawing.Point(7, 12);
             this.pbAnh.Name = "pbAnh";
-            this.pbAnh.Size = new System.Drawing.Size(285, 184);
+            this.pbAnh.Size = new System.Drawing.Size(261, 177);
             this.pbAnh.TabIndex = 0;
             this.pbAnh.TabStop = false;
             // 
@@ -57,7 +57,7 @@
             // 
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.Location = new System.Drawing.Point(305, 17);
+            this.metroLabel1.Location = new System.Drawing.Point(280, 16);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(117, 25);
             this.metroLabel1.TabIndex = 1;
@@ -66,36 +66,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(300, 76);
+            this.label1.Location = new System.Drawing.Point(275, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 25);
+            this.label1.Size = new System.Drawing.Size(148, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "KÍCH THƯỚC: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(300, 140);
+            this.label2.Location = new System.Drawing.Point(275, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 25);
+            this.label2.Size = new System.Drawing.Size(52, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "GIÁ:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(587, 76);
+            this.label3.Location = new System.Drawing.Point(538, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 25);
+            this.label3.Size = new System.Drawing.Size(117, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "SỐ LƯỢNG";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(572, 140);
+            this.label4.Location = new System.Drawing.Point(524, 134);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 25);
+            this.label4.Size = new System.Drawing.Size(131, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "THÀNH TIỀN";
             // 
@@ -104,27 +104,27 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(369, 140);
+            this.label5.Location = new System.Drawing.Point(338, 134);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 27);
+            this.label5.Size = new System.Drawing.Size(80, 27);
             this.label5.TabIndex = 6;
             this.label5.Text = "100000";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(481, 140);
+            this.label6.Location = new System.Drawing.Point(441, 134);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 25);
+            this.label6.Size = new System.Drawing.Size(54, 25);
             this.label6.TabIndex = 7;
             this.label6.Text = "VND";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(849, 140);
+            this.label7.Location = new System.Drawing.Point(778, 134);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 25);
+            this.label7.Size = new System.Drawing.Size(54, 25);
             this.label7.TabIndex = 8;
             this.label7.Text = "VND";
             // 
@@ -133,9 +133,9 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label8.Location = new System.Drawing.Point(481, 76);
+            this.label8.Location = new System.Drawing.Point(441, 73);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(32, 27);
+            this.label8.Size = new System.Drawing.Size(31, 27);
             this.label8.TabIndex = 9;
             this.label8.Text = "M";
             // 
@@ -144,22 +144,22 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(715, 140);
+            this.label10.Location = new System.Drawing.Point(655, 134);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 27);
+            this.label10.Size = new System.Drawing.Size(107, 27);
             this.label10.TabIndex = 11;
             this.label10.Text = " 10000000";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(720, 76);
+            this.numericUpDown1.Location = new System.Drawing.Point(660, 73);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 31);
+            this.numericUpDown1.Size = new System.Drawing.Size(110, 29);
             this.numericUpDown1.TabIndex = 12;
             // 
             // SALE_SanPhamCard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -176,7 +176,8 @@
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.pbAnh);
             this.Name = "SALE_SanPhamCard";
-            this.Size = new System.Drawing.Size(940, 207);
+            this.Size = new System.Drawing.Size(862, 199);
+            this.Load += new System.EventHandler(this.SALE_SanPhamCard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbAnh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);

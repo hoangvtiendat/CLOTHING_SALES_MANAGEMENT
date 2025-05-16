@@ -107,6 +107,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CMU_CS_447_GROUP_PROJECTDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="HousewareManager\HOUSEWAREMANAGER_DM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HousewareManager\HOUSEWAREMANAGER_DM.Designer.cs">
+      <DependentUpon>HOUSEWAREMANAGER_DM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaleStaff\SALE_GioHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,20 +146,6 @@
     <Compile Include="SaleStaff\SALE_TrangChu.Designer.cs">
       <DependentUpon>SALE_TrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="HousewareManager\HOUSEWAREMANAGER_DM.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HousewareManager\HOUSEWAREMANAGER_DM.Designer.cs">
-      <DependentUpon>HOUSEWAREMANAGER_DM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LOGIN.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LOGIN.Designer.cs">
-      <DependentUpon>LOGIN.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerConnection.cs" />
     <EmbeddedResource Include="Adminn\ADMIN_Account.resx">
       <DependentUpon>ADMIN_Account.cs</DependentUpon>
@@ -167,18 +168,6 @@
     <EmbeddedResource Include="Adminn\ADMIN_PurcharHistory.resx">
       <DependentUpon>ADMIN_PurcharHistory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaleStaff\SALE_GioHang.resx">
-      <DependentUpon>SALE_GioHang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SaleStaff\SALE_HoaDon.resx">
-      <DependentUpon>SALE_HoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SaleStaff\SALE_SanPhamCard.resx">
-      <DependentUpon>SALE_SanPhamCard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SaleStaff\SALE_TrangChu.resx">
-      <DependentUpon>SALE_TrangChu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="HousewareManager\HOUSEWAREMANAGER_DM.resx">
       <DependentUpon>HOUSEWAREMANAGER_DM.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,6 +183,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SaleStaff\SALE_GioHang.resx">
+      <DependentUpon>SALE_GioHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleStaff\SALE_HoaDon.resx">
+      <DependentUpon>SALE_HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleStaff\SALE_SanPhamCard.resx">
+      <DependentUpon>SALE_SanPhamCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleStaff\SALE_TrangChu.resx">
+      <DependentUpon>SALE_TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="CMU_CS_447_GROUP_PROJECTDataSet.xsc">
       <DependentUpon>CMU_CS_447_GROUP_PROJECTDataSet.xsd</DependentUpon>
     </None>
