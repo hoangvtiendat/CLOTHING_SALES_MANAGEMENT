@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\lap trinh androi\\clothing_sales_management\\clothing_sales_management\\housewaremanager\\housewaremanager_dm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\housewaremanager\\housewaremanager_dm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|d:\\lap trinh androi\\clothing_sales_management\\clothing_sales_management\\housewaremanager\\housewaremanager_dm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|solutionrelative:clothing_sales_management\\housewaremanager\\housewaremanager_dm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCA20B29-4696-4043-AAF1-316B26BC6C16}|CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT.csproj|D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\clothing_sales_management\\housewaremanager\\housewaremanager_dm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Program.cs",
               "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\Program.cs",
               "ToolTip": "D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\Program.cs",
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T12:23:39.63Z",
               "EditorCaption": ""
@@ -51,18 +51,17 @@
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\HousewareManager\\HousewareManager_DM.Designer.cs",
               "ViewState": "AgIAANsBAAAAAAAAAAAAAOcBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:29:49.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T14:29:49.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HOUSEWAREMANAGER_DM.cs",
               "DocumentMoniker": "D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\HousewareManager\\HousewareManager_DM.cs",
               "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\HousewareManager\\HousewareManager_DM.cs",
               "ToolTip": "D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\HousewareManager\\HousewareManager_DM.cs",
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\HousewareManager\\HousewareManager_DM.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGMAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAPkBAAAAAAAAAAAcwBkCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T12:10:37.179Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "ToolTip": "D:\\Lap trinh androi\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\HousewareManager\\HousewareManager_DM.cs [Design]",
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\HousewareManager\\HousewareManager_DM.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T12:10:33.339Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-08T12:10:33.339Z"
             }
           ]
         }

@@ -30,6 +30,7 @@ namespace CLOTHING_SALES_MANAGEMENT
         private void frmHousewareManagerDM_Load(object sender, EventArgs e)
         {
             LoadCategories(); // Đảm bảo load danh mục khi form tải
+            
         }
 
         private void LoadCategories()
@@ -488,6 +489,9 @@ namespace CLOTHING_SALES_MANAGEMENT
         private void btnCancelAddProduct_Click(object sender, EventArgs e)
         {
             panelAddProduct.Visible = false;
+            LoadProductsByCatalog((int)comboDanhMuc.SelectedValue); // Thêm dòng này
+
+
         }
         private byte[] selectedImageBytes = null;
         private void btnChooseProductImage_Click(object sender, EventArgs e)
@@ -534,6 +538,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
                 
                 int rowsAffected = sqlServerConnection.ExecuteNonQuery(insertQuery);
+                LoadProductsByCatalog((int)comboDanhMuc.SelectedValue);
 
                 if (rowsAffected > 0)
                 {
