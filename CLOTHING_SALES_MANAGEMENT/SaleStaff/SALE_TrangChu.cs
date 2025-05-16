@@ -316,10 +316,10 @@ namespace CLOTHING_SALES_MANAGEMENT
             UpdateShoppingCartButtonText();
         }
 
-        private void UpdateShoppingCartButtonText()
+        public void UpdateShoppingCartButtonText()
         {
-            totalQuantity = shoppingCart.Sum(p => p.Quantity); // Tổng số lượng tất cả sản phẩm
-            btnGioHang.Text = totalQuantity > 0 ? $"GIỎ HÀNG ({totalQuantity})" : "GIỎ HÀNG";
+            int itemCount = shoppingCart.Count; // Số lượng sản phẩm khác nhau
+            btnGioHang.Text = itemCount > 0 ? $"GIỎ HÀNG ({itemCount})" : "GIỎ HÀNG";
         }
         private List<Product> LoadProducts(int? catalogId = null)
         {
@@ -402,11 +402,7 @@ namespace CLOTHING_SALES_MANAGEMENT
             var gioHangForm = new frmSaleGioHang();
             gioHangForm.Show();
         }
-        public void CapNhatNutGioHang()
-        {
-            btnGioHang.Text = $"GIỎ HÀNG ({frmSaleGioHang.GioHangItems.Count})";
-        }
-
+       
     }
 }
 

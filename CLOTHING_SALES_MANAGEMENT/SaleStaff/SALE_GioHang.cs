@@ -215,7 +215,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                         var trangChu = Application.OpenForms.OfType<frmSaleTrangChu>().FirstOrDefault();
                         if (trangChu != null)
                         {
-                            trangChu.CapNhatNutGioHang();
+                            trangChu.UpdateShoppingCartButtonText();
                         }
                     }
                 };

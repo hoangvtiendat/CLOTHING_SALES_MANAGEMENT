@@ -54,7 +54,8 @@
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_HoaDon.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAgwHoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:47:21.795Z"
+              "WhenOpened": "2025-05-16T06:47:21.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,9 +65,10 @@
               "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs",
               "ToolTip": "D:\\cdio2\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs",
               "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_GioHang.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAqwOMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAqwNoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T06:23:19.04Z"
+              "WhenOpened": "2025-05-16T06:23:19.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,9 +76,9 @@
               "Title": "SALE_TrangChu.cs",
               "DocumentMoniker": "D:\\cdio2\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
               "RelativeDocumentMoniker": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "ToolTip": "D:\\cdio2\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs",
-              "ViewState": "AgIAAC4BAAAAAAAAAAAwwDoBAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\cdio2\\CLOTHING_SALES_MANAGEMENT\\CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs*",
+              "RelativeToolTip": "CLOTHING_SALES_MANAGEMENT\\SaleStaff\\SALE_TrangChu.cs*",
+              "ViewState": "AgIAAC0BAAAAAAAAAADwv0EBAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T09:27:34.631Z",
               "EditorCaption": ""
