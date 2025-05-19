@@ -46,13 +46,13 @@
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.textTenKH = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtMaHD = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnTroVe = new MetroFramework.Controls.MetroButton();
             this.btnThanhToan = new MetroFramework.Controls.MetroButton();
+            this.lblHD = new System.Windows.Forms.Label();
             this.pnHoaDon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtHoaDon)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +60,7 @@
             // pnHoaDon
             // 
             this.pnHoaDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnHoaDon.Controls.Add(this.lblHD);
             this.pnHoaDon.Controls.Add(this.label11);
             this.pnHoaDon.Controls.Add(this.txtTienThoi);
             this.pnHoaDon.Controls.Add(this.label12);
@@ -77,7 +78,6 @@
             this.pnHoaDon.Controls.Add(this.txtSDT);
             this.pnHoaDon.Controls.Add(this.textTenKH);
             this.pnHoaDon.Controls.Add(this.label1);
-            this.pnHoaDon.Controls.Add(this.txtMaHD);
             this.pnHoaDon.Controls.Add(this.label5);
             this.pnHoaDon.Controls.Add(this.label4);
             this.pnHoaDon.Controls.Add(this.label3);
@@ -220,6 +220,7 @@
             this.txtSDT.Size = new System.Drawing.Size(569, 29);
             this.txtSDT.TabIndex = 15;
             this.txtSDT.TextChanged += new System.EventHandler(this.txtSDT_TextChanged);
+            this.txtSDT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSDT_KeyPress);
             // 
             // textTenKH
             // 
@@ -237,13 +238,6 @@
             this.label1.Size = new System.Drawing.Size(227, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "TỔNG HÓA ĐƠN";
-            // 
-            // txtMaHD
-            // 
-            this.txtMaHD.Location = new System.Drawing.Point(279, 43);
-            this.txtMaHD.Name = "txtMaHD";
-            this.txtMaHD.Size = new System.Drawing.Size(569, 29);
-            this.txtMaHD.TabIndex = 13;
             // 
             // label5
             // 
@@ -312,6 +306,14 @@
             this.btnThanhToan.UseWaitCursor = true;
             this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
             // 
+            // lblHD
+            // 
+            this.lblHD.AutoSize = true;
+            this.lblHD.Location = new System.Drawing.Point(274, 44);
+            this.lblHD.Name = "lblHD";
+            this.lblHD.Size = new System.Drawing.Size(0, 25);
+            this.lblHD.TabIndex = 30;
+            // 
             // frmSaleHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
@@ -349,7 +351,6 @@
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.TextBox textTenKH;
-        private System.Windows.Forms.TextBox txtMaHD;
         private MetroFramework.Controls.MetroButton btnTroVe;
         private MetroFramework.Controls.MetroButton btnThanhToan;
         private System.Windows.Forms.Label label11;
@@ -360,5 +361,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblHD;
     }
 }

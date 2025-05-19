@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CLOTHING_SALES_MANAGEMENT.Models;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
@@ -67,6 +68,14 @@ namespace CLOTHING_SALES_MANAGEMENT
             if (string.IsNullOrEmpty(textTenKH.Text) || string.IsNullOrEmpty(txtSDT.Text) || string.IsNullOrEmpty(txtDiaChi.Text))
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin khách hàng.", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            string soDienThoai = txtSDT.Text.Trim();
+            string pattern = @"^0[0-9]{9,10}$";
+            if (!Regex.IsMatch(soDienThoai, pattern))
+            {
+                MessageBox.Show("Số điện thoại không hợp lệ. Vui lòng nhập số bắt đầu bằng 0 và có 10-11 chữ số.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtSDT.Focus();
                 return;
             }
 
@@ -299,7 +308,7 @@ namespace CLOTHING_SALES_MANAGEMENT
         private void frmSaleHoaDon_Load(object sender, EventArgs e)
         {
             // Lấy và hiển thị mã hóa đơn tự động tăng từ database
-            txtMaHD.Text = GenerateMaHoaDonFromDatabase();
+            lblHD.Text = GenerateMaHoaDonFromDatabase();
 
             // Hiển thị các sản phẩm đã mua trong DataGridView
             if (GioHangItems != null && GioHangItems.Count > 0)
@@ -361,35 +370,41 @@ namespace CLOTHING_SALES_MANAGEMENT
         private decimal tongHoaDonBanDauValue = 0;
         private void txtSDT_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtSDT.Text))
-            {
-                decimal chietKhau = 0;
-                string tenKH = string.Empty;
-                string diaChi = string.Empty;
-
-                if (!KiemTraKhachHangTonTai(txtSDT.Text, out tenKH, out diaChi)) // Gọi hàm mới
+         
+           
+                if (!string.IsNullOrEmpty(txtSDT.Text))
                 {
-                    chietKhau = tongHoaDonBanDauValue * 0.05m;
-                    txtChietKhau.Text = $"{chietKhau:N0} VND";
-                    txtTongTien.Text = $"{(tongHoaDonBanDauValue - chietKhau):N0} VND";
-                    textTenKH.Text = string.Empty;
-                    txtDiaChi.Text = string.Empty;
+
+                    decimal chietKhau = 0;
+                    string tenKH = string.Empty;
+                    string diaChi = string.Empty;
+                 
+
+                    if (!KiemTraKhachHangTonTai(txtSDT.Text, out tenKH, out diaChi)) // Gọi hàm mới
+                    {
+                        chietKhau = tongHoaDonBanDauValue * 0.05m;
+                        txtChietKhau.Text = $"{chietKhau:N0} VND";
+                        txtTongTien.Text = $"{(tongHoaDonBanDauValue - chietKhau):N0} VND";
+                        textTenKH.Text = string.Empty;
+                        txtDiaChi.Text = string.Empty;
+                    }
+                    else
+                    {
+                        txtChietKhau.Text = "0 VND";
+                        txtTongTien.Text = $"{tongHoaDonBanDauValue:N0} VND"; // Hiển thị lại tổng tiền gốc
+                        textTenKH.Text = tenKH;
+                        txtDiaChi.Text = diaChi;
+                    }
                 }
                 else
                 {
                     txtChietKhau.Text = "0 VND";
-                    txtTongTien.Text = $"{tongHoaDonBanDauValue:N0} VND"; // Hiển thị lại tổng tiền gốc
-                    textTenKH.Text = tenKH;
-                    txtDiaChi.Text = diaChi;
+                    txtTongTien.Text = $"{tongHoaDonBanDauValue:N0} VND"; // Hiển thị lại tổng tiền gốc khi xóa SĐT
+                    textTenKH.Text = string.Empty;
+                    txtDiaChi.Text = string.Empty;
                 }
-            }
-            else
-            {
-                txtChietKhau.Text = "0 VND";
-                txtTongTien.Text = $"{tongHoaDonBanDauValue:N0} VND"; // Hiển thị lại tổng tiền gốc khi xóa SĐT
-                textTenKH.Text = string.Empty;
-                txtDiaChi.Text = string.Empty;
-            }
+
+          
         }
 
         private void frmSaleHoaDon_FormClosing(object sender, FormClosingEventArgs e)
@@ -400,5 +415,16 @@ namespace CLOTHING_SALES_MANAGEMENT
                 e.Cancel = true; // Huỷ việc đóng form
             }
         }
+
+        private void txtSDT_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Chỉ cho phép nhập số và phím điều khiển (Backspace, Delete, v.v.)
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+      
     }
 }
