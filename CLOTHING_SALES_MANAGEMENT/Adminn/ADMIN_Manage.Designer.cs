@@ -54,7 +54,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(30, 94);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1502, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(1612, 42);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -108,18 +108,21 @@
             // 
             // frmAdminManage
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1562, 961);
+            this.ClientSize = new System.Drawing.Size(1672, 1700);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximumSize = new System.Drawing.Size(1672, 1700);
             this.Name = "frmAdminManage";
             this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
             this.Text = "QUẢN LÝ";
             this.TransparencyKey = System.Drawing.Color.Empty;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAdminManage_FormClosing);
             this.Load += new System.EventHandler(this.Manage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

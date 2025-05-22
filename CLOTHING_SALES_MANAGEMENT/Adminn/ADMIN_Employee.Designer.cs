@@ -34,7 +34,7 @@
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtTimKim = new System.Windows.Forms.TextBox();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnTim = new MetroFramework.Controls.MetroButton();
             this.btnThem = new MetroFramework.Controls.MetroButton();
             this.btnCapNhat = new MetroFramework.Controls.MetroButton();
@@ -47,6 +47,7 @@
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.lblMaNhanVien = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -85,6 +86,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllHeaders;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(214, 544);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -93,6 +97,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1264, 294);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label6
             // 
@@ -100,17 +105,17 @@
             this.label6.Location = new System.Drawing.Point(794, 478);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(203, 25);
+            this.label6.Size = new System.Drawing.Size(217, 25);
             this.label6.TabIndex = 12;
-            this.label6.Text = "TÌM KÍM THEO TÊN";
+            this.label6.Text = "TÌM KIẾM THEO TÊN";
             // 
-            // txtTimKim
+            // txtTimKiem
             // 
-            this.txtTimKim.Location = new System.Drawing.Point(1041, 469);
-            this.txtTimKim.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtTimKim.Name = "txtTimKim";
-            this.txtTimKim.Size = new System.Drawing.Size(241, 31);
-            this.txtTimKim.TabIndex = 13;
+            this.txtTimKiem.Location = new System.Drawing.Point(1041, 469);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(241, 31);
+            this.txtTimKiem.TabIndex = 13;
             // 
             // btnTim
             // 
@@ -119,9 +124,9 @@
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(112, 36);
             this.btnTim.TabIndex = 14;
-            this.btnTim.Text = "TÌM KÍM";
+            this.btnTim.Text = "TÌM KIẾM";
             this.btnTim.UseSelectable = true;
-            this.btnTim.Click += new System.EventHandler(this.btnFind_Click);
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
             // 
             // btnThem
             // 
@@ -132,6 +137,7 @@
             this.btnThem.TabIndex = 15;
             this.btnThem.Text = "THÊM";
             this.btnThem.UseSelectable = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnCapNhat
             // 
@@ -142,6 +148,7 @@
             this.btnCapNhat.TabIndex = 16;
             this.btnCapNhat.Text = "CẬP NHẬT";
             this.btnCapNhat.UseSelectable = true;
+            this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
             // btnXoa
             // 
@@ -152,6 +159,7 @@
             this.btnXoa.TabIndex = 17;
             this.btnXoa.Text = "XÓA";
             this.btnXoa.UseSelectable = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // groupBox1
             // 
@@ -176,6 +184,7 @@
             this.rdGiam.TabIndex = 1;
             this.rdGiam.Text = "GIẢM DẦN";
             this.rdGiam.UseSelectable = true;
+            this.rdGiam.CheckedChanged += new System.EventHandler(this.rdGiam_CheckedChanged);
             // 
             // rdTang
             // 
@@ -187,6 +196,7 @@
             this.rdTang.TabIndex = 0;
             this.rdTang.Text = "TĂNG DẦN";
             this.rdTang.UseSelectable = true;
+            this.rdTang.CheckedChanged += new System.EventHandler(this.rdTang_CheckedChanged);
             // 
             // btnLamMoi
             // 
@@ -197,6 +207,7 @@
             this.btnLamMoi.TabIndex = 19;
             this.btnLamMoi.Text = "LÀM MỚI";
             this.btnLamMoi.UseSelectable = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // metroLabel1
             // 
@@ -238,11 +249,22 @@
             this.metroLabel4.TabIndex = 23;
             this.metroLabel4.Text = "SỐ ĐIỆN THOẠI";
             // 
+            // lblMaNhanVien
+            // 
+            this.lblMaNhanVien.AutoSize = true;
+            this.lblMaNhanVien.Location = new System.Drawing.Point(214, 109);
+            this.lblMaNhanVien.Name = "lblMaNhanVien";
+            this.lblMaNhanVien.Size = new System.Drawing.Size(0, 0);
+            this.lblMaNhanVien.TabIndex = 24;
+            this.lblMaNhanVien.Visible = false;
+            // 
             // frmAdminEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1684, 941);
+            this.ControlBox = false;
+            this.Controls.Add(this.lblMaNhanVien);
             this.Controls.Add(this.metroLabel4);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.metroLabel2);
@@ -253,7 +275,7 @@
             this.Controls.Add(this.btnCapNhat);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.btnTim);
-            this.Controls.Add(this.txtTimKim);
+            this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtSDT);
@@ -264,7 +286,6 @@
             this.Name = "frmAdminEmployee";
             this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
             this.Text = "QUẢN LÝ NHÂN VIÊN";
-            this.Load += new System.EventHandler(this.EMPLOYEE_frm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -280,7 +301,7 @@
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtTimKim;
+        private System.Windows.Forms.TextBox txtTimKiem;
         private MetroFramework.Controls.MetroButton btnTim;
         private MetroFramework.Controls.MetroButton btnThem;
         private MetroFramework.Controls.MetroButton btnCapNhat;
@@ -293,5 +314,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel4;
+        private MetroFramework.Controls.MetroLabel lblMaNhanVien;
     }
 }

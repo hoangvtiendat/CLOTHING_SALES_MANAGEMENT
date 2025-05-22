@@ -35,10 +35,10 @@
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.txtGia = new MetroFramework.Controls.MetroTextBox();
-            this.txtSoluong = new MetroFramework.Controls.MetroTextBox();
-            this.cboDanhMuc = new MetroFramework.Controls.MetroComboBox();
+            this.txtSoLuong = new MetroFramework.Controls.MetroTextBox();
+            this.cbDanhMuc = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
-            this.txtTimKim = new MetroFramework.Controls.MetroTextBox();
+            this.txtTimKiem = new MetroFramework.Controls.MetroTextBox();
             this.btnThem = new MetroFramework.Controls.MetroButton();
             this.btnCapNhat = new MetroFramework.Controls.MetroButton();
             this.btnXoa = new MetroFramework.Controls.MetroButton();
@@ -49,7 +49,8 @@
             this.rdGiam = new MetroFramework.Controls.MetroRadioButton();
             this.rdTang = new MetroFramework.Controls.MetroRadioButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.btnTaiAnh = new MetroFramework.Controls.MetroButton();
+            this.lblMaSanPham = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.ptImage)).BeginInit();
             this.Sort.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -71,10 +72,10 @@
             // 
             // 
             this.txtTenSP.CustomButton.Image = null;
-            this.txtTenSP.CustomButton.Location = new System.Drawing.Point(358, 2);
+            this.txtTenSP.CustomButton.Location = new System.Drawing.Point(239, 1);
             this.txtTenSP.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTenSP.CustomButton.Name = "";
-            this.txtTenSP.CustomButton.Size = new System.Drawing.Size(68, 70);
+            this.txtTenSP.CustomButton.Size = new System.Drawing.Size(45, 45);
             this.txtTenSP.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtTenSP.CustomButton.TabIndex = 1;
             this.txtTenSP.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -142,10 +143,10 @@
             // 
             // 
             this.txtGia.CustomButton.Image = null;
-            this.txtGia.CustomButton.Location = new System.Drawing.Point(358, 2);
+            this.txtGia.CustomButton.Location = new System.Drawing.Point(239, 1);
             this.txtGia.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtGia.CustomButton.Name = "";
-            this.txtGia.CustomButton.Size = new System.Drawing.Size(68, 70);
+            this.txtGia.CustomButton.Size = new System.Drawing.Size(45, 45);
             this.txtGia.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtGia.CustomButton.TabIndex = 1;
             this.txtGia.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -167,50 +168,49 @@
             this.txtGia.UseSelectable = true;
             this.txtGia.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtGia.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            this.txtGia.Click += new System.EventHandler(this.txtPrice_Click);
             // 
-            // txtSoluong
-            // 
+            // txtSoLuong
             // 
             // 
             // 
-            this.txtSoluong.CustomButton.Image = null;
-            this.txtSoluong.CustomButton.Location = new System.Drawing.Point(358, 2);
-            this.txtSoluong.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtSoluong.CustomButton.Name = "";
-            this.txtSoluong.CustomButton.Size = new System.Drawing.Size(68, 70);
-            this.txtSoluong.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtSoluong.CustomButton.TabIndex = 1;
-            this.txtSoluong.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtSoluong.CustomButton.UseSelectable = true;
-            this.txtSoluong.CustomButton.Visible = false;
-            this.txtSoluong.Lines = new string[0];
-            this.txtSoluong.Location = new System.Drawing.Point(484, 303);
-            this.txtSoluong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtSoluong.MaxLength = 32767;
-            this.txtSoluong.Name = "txtSoluong";
-            this.txtSoluong.PasswordChar = '\0';
-            this.txtSoluong.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtSoluong.SelectedText = "";
-            this.txtSoluong.SelectionLength = 0;
-            this.txtSoluong.SelectionStart = 0;
-            this.txtSoluong.ShortcutsEnabled = true;
-            this.txtSoluong.Size = new System.Drawing.Size(285, 47);
-            this.txtSoluong.TabIndex = 8;
-            this.txtSoluong.UseSelectable = true;
-            this.txtSoluong.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtSoluong.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // cboDanhMuc
+            this.txtSoLuong.CustomButton.Image = null;
+            this.txtSoLuong.CustomButton.Location = new System.Drawing.Point(239, 1);
+            this.txtSoLuong.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtSoLuong.CustomButton.Name = "";
+            this.txtSoLuong.CustomButton.Size = new System.Drawing.Size(45, 45);
+            this.txtSoLuong.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtSoLuong.CustomButton.TabIndex = 1;
+            this.txtSoLuong.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtSoLuong.CustomButton.UseSelectable = true;
+            this.txtSoLuong.CustomButton.Visible = false;
+            this.txtSoLuong.Lines = new string[0];
+            this.txtSoLuong.Location = new System.Drawing.Point(484, 303);
+            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtSoLuong.MaxLength = 32767;
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.PasswordChar = '\0';
+            this.txtSoLuong.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtSoLuong.SelectedText = "";
+            this.txtSoLuong.SelectionLength = 0;
+            this.txtSoLuong.SelectionStart = 0;
+            this.txtSoLuong.ShortcutsEnabled = true;
+            this.txtSoLuong.Size = new System.Drawing.Size(285, 47);
+            this.txtSoLuong.TabIndex = 8;
+            this.txtSoLuong.UseSelectable = true;
+            this.txtSoLuong.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtSoLuong.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            this.cboDanhMuc.FormattingEnabled = true;
-            this.cboDanhMuc.ItemHeight = 23;
-            this.cboDanhMuc.Location = new System.Drawing.Point(484, 381);
-            this.cboDanhMuc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cboDanhMuc.Name = "cboDanhMuc";
-            this.cboDanhMuc.Size = new System.Drawing.Size(283, 29);
-            this.cboDanhMuc.TabIndex = 9;
-            this.cboDanhMuc.UseSelectable = true;
+            // cbDanhMuc
+            // 
+            this.cbDanhMuc.FormattingEnabled = true;
+            this.cbDanhMuc.ItemHeight = 23;
+            this.cbDanhMuc.Location = new System.Drawing.Point(484, 381);
+            this.cbDanhMuc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbDanhMuc.Name = "cbDanhMuc";
+            this.cbDanhMuc.Size = new System.Drawing.Size(283, 29);
+            this.cbDanhMuc.TabIndex = 9;
+            this.cbDanhMuc.UseSelectable = true;
             // 
             // metroLabel6
             // 
@@ -218,41 +218,41 @@
             this.metroLabel6.Location = new System.Drawing.Point(1072, 502);
             this.metroLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(61, 19);
+            this.metroLabel6.Size = new System.Drawing.Size(68, 19);
             this.metroLabel6.TabIndex = 10;
-            this.metroLabel6.Text = "TÌM KÍM ";
+            this.metroLabel6.Text = "TÌM KIẾM ";
             // 
-            // txtTimKim
-            // 
-            // 
+            // txtTimKiem
             // 
             // 
-            this.txtTimKim.CustomButton.Image = null;
-            this.txtTimKim.CustomButton.Location = new System.Drawing.Point(240, 2);
-            this.txtTimKim.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtTimKim.CustomButton.Name = "";
-            this.txtTimKim.CustomButton.Size = new System.Drawing.Size(68, 70);
-            this.txtTimKim.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtTimKim.CustomButton.TabIndex = 1;
-            this.txtTimKim.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtTimKim.CustomButton.UseSelectable = true;
-            this.txtTimKim.CustomButton.Visible = false;
-            this.txtTimKim.Lines = new string[0];
-            this.txtTimKim.Location = new System.Drawing.Point(1203, 486);
-            this.txtTimKim.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtTimKim.MaxLength = 32767;
-            this.txtTimKim.Name = "txtTimKim";
-            this.txtTimKim.PasswordChar = '\0';
-            this.txtTimKim.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtTimKim.SelectedText = "";
-            this.txtTimKim.SelectionLength = 0;
-            this.txtTimKim.SelectionStart = 0;
-            this.txtTimKim.ShortcutsEnabled = true;
-            this.txtTimKim.Size = new System.Drawing.Size(206, 47);
-            this.txtTimKim.TabIndex = 11;
-            this.txtTimKim.UseSelectable = true;
-            this.txtTimKim.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtTimKim.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // 
+            this.txtTimKiem.CustomButton.Image = null;
+            this.txtTimKiem.CustomButton.Location = new System.Drawing.Point(160, 1);
+            this.txtTimKiem.CustomButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTimKiem.CustomButton.Name = "";
+            this.txtTimKiem.CustomButton.Size = new System.Drawing.Size(45, 45);
+            this.txtTimKiem.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.txtTimKiem.CustomButton.TabIndex = 1;
+            this.txtTimKiem.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.txtTimKiem.CustomButton.UseSelectable = true;
+            this.txtTimKiem.CustomButton.Visible = false;
+            this.txtTimKiem.Lines = new string[0];
+            this.txtTimKiem.Location = new System.Drawing.Point(1203, 486);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTimKiem.MaxLength = 32767;
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.PasswordChar = '\0';
+            this.txtTimKiem.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txtTimKiem.SelectedText = "";
+            this.txtTimKiem.SelectionLength = 0;
+            this.txtTimKiem.SelectionStart = 0;
+            this.txtTimKiem.ShortcutsEnabled = true;
+            this.txtTimKiem.Size = new System.Drawing.Size(206, 47);
+            this.txtTimKiem.TabIndex = 11;
+            this.txtTimKiem.UseSelectable = true;
+            this.txtTimKiem.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.txtTimKiem.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // btnThem
             // 
@@ -263,6 +263,7 @@
             this.btnThem.TabIndex = 12;
             this.btnThem.Text = "THÊM";
             this.btnThem.UseSelectable = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnCapNhat
             // 
@@ -273,6 +274,7 @@
             this.btnCapNhat.TabIndex = 13;
             this.btnCapNhat.Text = "CẬP NHẬT";
             this.btnCapNhat.UseSelectable = true;
+            this.btnCapNhat.Click += new System.EventHandler(this.btnCapNhat_Click);
             // 
             // btnXoa
             // 
@@ -283,6 +285,7 @@
             this.btnXoa.TabIndex = 14;
             this.btnXoa.Text = "XÓA";
             this.btnXoa.UseSelectable = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnLamMoi
             // 
@@ -293,6 +296,7 @@
             this.btnLamMoi.TabIndex = 15;
             this.btnLamMoi.Text = "LÀM MỚI";
             this.btnLamMoi.UseSelectable = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // btnTim
             // 
@@ -303,10 +307,11 @@
             this.btnTim.TabIndex = 16;
             this.btnTim.Text = "TÌM";
             this.btnTim.UseSelectable = true;
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
             // 
             // ptImage
             // 
-            this.ptImage.Location = new System.Drawing.Point(818, 234);
+            this.ptImage.Location = new System.Drawing.Point(839, 220);
             this.ptImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ptImage.Name = "ptImage";
             this.ptImage.Size = new System.Drawing.Size(279, 170);
@@ -336,6 +341,7 @@
             this.rdGiam.TabIndex = 1;
             this.rdGiam.Text = "GIẢM DẦN";
             this.rdGiam.UseSelectable = true;
+            this.rdGiam.CheckedChanged += new System.EventHandler(this.rdGiam_CheckedChanged);
             // 
             // rdTang
             // 
@@ -347,6 +353,7 @@
             this.rdTang.TabIndex = 0;
             this.rdTang.Text = "TĂNG DẦN";
             this.rdTang.UseSelectable = true;
+            this.rdTang.CheckedChanged += new System.EventHandler(this.rdTang_CheckedChanged);
             // 
             // dataGridView1
             // 
@@ -358,24 +365,34 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1296, 312);
             this.dataGridView1.TabIndex = 19;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // metroLabel7
+            // btnTaiAnh
             // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(854, 164);
-            this.metroLabel7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(132, 19);
-            this.metroLabel7.TabIndex = 20;
-            this.metroLabel7.Text = "TẢI ẢNH SẢN PHẨM";
+            this.btnTaiAnh.Location = new System.Drawing.Point(839, 148);
+            this.btnTaiAnh.Name = "btnTaiAnh";
+            this.btnTaiAnh.Size = new System.Drawing.Size(137, 51);
+            this.btnTaiAnh.TabIndex = 21;
+            this.btnTaiAnh.Text = "CHỌN ẢNH TẢI LÊN";
+            this.btnTaiAnh.UseSelectable = true;
+            this.btnTaiAnh.Click += new System.EventHandler(this.btnTaiAnh_Click);
+            // 
+            // lblMaSanPham
+            // 
+            this.lblMaSanPham.AutoSize = true;
+            this.lblMaSanPham.Location = new System.Drawing.Point(250, 98);
+            this.lblMaSanPham.Name = "lblMaSanPham";
+            this.lblMaSanPham.Size = new System.Drawing.Size(0, 0);
+            this.lblMaSanPham.TabIndex = 22;
+            this.lblMaSanPham.Visible = false;
             // 
             // frmAdminProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1738, 978);
-            this.Controls.Add(this.metroLabel7);
+            this.Controls.Add(this.lblMaSanPham);
+            this.Controls.Add(this.btnTaiAnh);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Sort);
             this.Controls.Add(this.ptImage);
@@ -384,10 +401,10 @@
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnCapNhat);
             this.Controls.Add(this.btnThem);
-            this.Controls.Add(this.txtTimKim);
+            this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.metroLabel6);
-            this.Controls.Add(this.cboDanhMuc);
-            this.Controls.Add(this.txtSoluong);
+            this.Controls.Add(this.cbDanhMuc);
+            this.Controls.Add(this.txtSoLuong);
             this.Controls.Add(this.txtGia);
             this.Controls.Add(this.metroLabel5);
             this.Controls.Add(this.metroLabel4);
@@ -399,7 +416,6 @@
             this.Name = "frmAdminProduct";
             this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
             this.Text = "Quản Lý Sản Phẩm";
-            this.Load += new System.EventHandler(this.ADMIN_Product_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptImage)).EndInit();
             this.Sort.ResumeLayout(false);
             this.Sort.PerformLayout();
@@ -418,10 +434,10 @@
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroTextBox txtGia;
-        private MetroFramework.Controls.MetroTextBox txtSoluong;
-        private MetroFramework.Controls.MetroComboBox cboDanhMuc;
+        private MetroFramework.Controls.MetroTextBox txtSoLuong;
+        private MetroFramework.Controls.MetroComboBox cbDanhMuc;
         private MetroFramework.Controls.MetroLabel metroLabel6;
-        private MetroFramework.Controls.MetroTextBox txtTimKim;
+        private MetroFramework.Controls.MetroTextBox txtTimKiem;
         private MetroFramework.Controls.MetroButton btnThem;
         private MetroFramework.Controls.MetroButton btnCapNhat;
         private MetroFramework.Controls.MetroButton btnXoa;
@@ -432,6 +448,7 @@
         private MetroFramework.Controls.MetroRadioButton rdGiam;
         private MetroFramework.Controls.MetroRadioButton rdTang;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroButton btnTaiAnh;
+        private MetroFramework.Controls.MetroLabel lblMaSanPham;
     }
 }

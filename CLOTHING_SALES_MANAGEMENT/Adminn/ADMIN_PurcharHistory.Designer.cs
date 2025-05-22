@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
+            this.dtStart = new MetroFramework.Controls.MetroDateTime();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.dtEnd = new MetroFramework.Controls.MetroDateTime();
+            this.btnLoc = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,19 +45,19 @@
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(0, 0);
             this.metroLabel1.TabIndex = 0;
-            this.metroLabel1.Click += new System.EventHandler(this.metroLabel1_Click);
             // 
-            // metroDateTime1
+            // dtStart
             // 
-            this.metroDateTime1.Location = new System.Drawing.Point(838, 220);
-            this.metroDateTime1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
-            this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.Size = new System.Drawing.Size(364, 31);
-            this.metroDateTime1.TabIndex = 1;
+            this.dtStart.Location = new System.Drawing.Point(314, 249);
+            this.dtStart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dtStart.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dtStart.Name = "dtStart";
+            this.dtStart.Size = new System.Drawing.Size(364, 31);
+            this.dtStart.TabIndex = 1;
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(314, 389);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -68,26 +70,47 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(492, 236);
+            this.metroLabel2.Location = new System.Drawing.Point(314, 184);
             this.metroLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(158, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(176, 19);
             this.metroLabel2.TabIndex = 3;
-            this.metroLabel2.Text = "NHẬP NGÀY MUA HÀNG";
+            this.metroLabel2.Text = "CHỌN KHOẢNG THỜI GIAN";
+            // 
+            // dtEnd
+            // 
+            this.dtEnd.Location = new System.Drawing.Point(1003, 249);
+            this.dtEnd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dtEnd.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dtEnd.Name = "dtEnd";
+            this.dtEnd.Size = new System.Drawing.Size(364, 31);
+            this.dtEnd.TabIndex = 4;
+            // 
+            // btnLoc
+            // 
+            this.btnLoc.Location = new System.Drawing.Point(1182, 329);
+            this.btnLoc.Name = "btnLoc";
+            this.btnLoc.Size = new System.Drawing.Size(167, 38);
+            this.btnLoc.TabIndex = 5;
+            this.btnLoc.Text = "LỌC";
+            this.btnLoc.UseSelectable = true;
+            this.btnLoc.Click += new System.EventHandler(this.btnLoc_Click);
             // 
             // frmAdminPurcharHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1635, 930);
+            this.Controls.Add(this.btnLoc);
+            this.Controls.Add(this.dtEnd);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.metroDateTime1);
+            this.Controls.Add(this.dtStart);
             this.Controls.Add(this.metroLabel1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmAdminPurcharHistory";
             this.Padding = new System.Windows.Forms.Padding(30, 94, 30, 31);
-            this.Text = "LỊCH SỬ MUA HÀNG";
+            this.Text = "Purchar History";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -97,8 +120,10 @@
         #endregion
 
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroDateTime metroDateTime1;
+        private MetroFramework.Controls.MetroDateTime dtStart;
         private System.Windows.Forms.DataGridView dataGridView1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
+        private MetroFramework.Controls.MetroDateTime dtEnd;
+        private MetroFramework.Controls.MetroButton btnLoc;
     }
 }

@@ -10,35 +10,38 @@ using System.Windows.Forms;
 
 namespace CLOTHING_SALES_MANAGEMENT
 {
-    public partial class frmAdminManage: MetroFramework.Forms.MetroForm
+    public partial class frmAdminManage : MetroFramework.Forms.MetroForm
     {
         public frmAdminManage()
         {
             InitializeComponent();
+            this.Width = 1200;
+            this.Height = 1200;
+
         }
 
         // Hàm dùng để mở form con
         private void OpenChildForm(Form childForm)
         {
             // Ẩn groupbox
-          
+
 
             // Đóng tất cả form con đang mở và gỡ sự kiện đã gán
             foreach (Form frm in this.MdiChildren)
             {
-               
+
                 frm.Close();
             }
 
             // Cấu hình form con
             childForm.MdiParent = this;
             childForm.WindowState = FormWindowState.Maximized;
-           
+
             childForm.Show();
         }
 
         // Hàm xử lý khi form con đóng
-       
+
         // Các sự kiện MenuStrip gọi form con
 
         private void custommnerToolStripMenuItem_Click(object sender, EventArgs e)
@@ -67,7 +70,7 @@ namespace CLOTHING_SALES_MANAGEMENT
         }
 
         // Biểu đồ Doanh thu - không liên quan đến form MDI, giữ nguyên
-      
+
         private void Manage_Load(object sender, EventArgs e)
         {
 
@@ -76,6 +79,22 @@ namespace CLOTHING_SALES_MANAGEMENT
         private void mnstripThongKe_Click(object sender, EventArgs e)
         {
             OpenChildForm(new frmAdminDashboard());
+        }
+
+        private void frmAdminManage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                foreach (Form childForm in this.MdiChildren)
+                {
+                    childForm.Close();
+                }
+            }
+            catch (ObjectDisposedException ex)
+            {
+                // Ghi log lỗi hoặc thực hiện hành động phù hợp
+                System.Diagnostics.Debug.WriteLine($"Lỗi khi đóng form con: {ex.Message}");
+            }
         }
     }
 }
