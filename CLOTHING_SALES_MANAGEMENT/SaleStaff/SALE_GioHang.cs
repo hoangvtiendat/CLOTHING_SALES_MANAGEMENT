@@ -27,7 +27,7 @@ namespace CLOTHING_SALES_MANAGEMENT
         private const int ITEM_HEIGHT = 150; // Tăng chiều cao để chứa nút Xóa
         private const int VERTICAL_SPACING = 15;
         private const int IMAGE_SIZE = 80;
-        private string connectionString = "Data Source=DESKTOP-9897340;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True";
+        private string connectionString = "Data Source=LAPTOP-68GDOI8K\\MAYCUONG;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True";
 
         public frmSaleGioHang()
         {
@@ -57,7 +57,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 frmSaleHoaDon hoaDonForm = new frmSaleHoaDon(GioHangItems.ToList());
                 hoaDonForm.Show();
                 this.Hide();
-                UpdateQuantitiesInDatabase();
+                //UpdateQuantitiesInDatabase();
             }
             else
             {

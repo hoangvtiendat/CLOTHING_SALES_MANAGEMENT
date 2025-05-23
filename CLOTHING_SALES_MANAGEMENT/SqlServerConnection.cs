@@ -10,7 +10,8 @@ namespace CLOTHING_SALES_MANAGEMENT
 {
     class SqlServerConnection
     {
-        private string connectionString = @"Data Source=172.25.0.77,1433;User ID=myuser;Password=Tu@123;";
+        private string connectionString =@"Data Source=LAPTOP-68GDOI8K\MAYCUONG;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True";
+
 
         private SqlConnection connection;
 
@@ -18,7 +19,7 @@ namespace CLOTHING_SALES_MANAGEMENT
         {
             connection = new SqlConnection(connectionString); // Fix the constructor call
         }
-
+        
         public void OpenConnection()
         {
             try

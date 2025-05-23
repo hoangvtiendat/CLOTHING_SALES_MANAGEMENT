@@ -16,7 +16,7 @@ namespace CLOTHING_SALES_MANAGEMENT
     public partial class frmSaleHoaDon : MetroFramework.Forms.MetroForm
     {
         public List<Product> GioHangItems { get; set; }
-        private string connectionString = @"Data Source=DESKTOP-9897340;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True;Encrypt=False;";
+        private string connectionString = @"Data Source=LAPTOP-68GDOI8K\MAYCUONG;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True";
 
         public frmSaleHoaDon(List<Product> gioHang)
         {
@@ -163,7 +163,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    string query = "SELECT CUSTOMER_ID FROM CUSTOMER WHERE CUSTOMER_NUMBERPHONE = @SoDienThoai;";
+                    string query = "SELECT CUSTOMER_ID FROM CUSTOMER WHERE CUSTOMER_PHONENUMBER  = @SoDienThoai;";
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@SoDienThoai", soDienThoai);
                     object result = cmd.ExecuteScalar();
@@ -185,8 +185,9 @@ namespace CLOTHING_SALES_MANAGEMENT
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
+                    //CUSTOMER_PHONENUMBER 
                     conn.Open();
-                    string query = "INSERT INTO CUSTOMER (CUSTOMER_NAME, CUSTOMER_ADDRESS, CUSTOMER_NUMBERPHONE) VALUES (@TenKH, @DiaChi, @SDT); SELECT SCOPE_IDENTITY();";
+                    string query = "INSERT INTO CUSTOMER (CUSTOMER_NAME, CUSTOMER_ADDRESS, CUSTOMER_PHONENUMBER ) VALUES (@TenKH, @DiaChi, @SDT); SELECT SCOPE_IDENTITY();";
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@TenKH", tenKH);
                     cmd.Parameters.AddWithValue("@SDT", sdt);
@@ -214,7 +215,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    string query = "SELECT CUSTOMER_NAME, CUSTOMER_ADDRESS FROM CUSTOMER WHERE CUSTOMER_NUMBERPHONE = @SoDienThoai;";
+                    string query = "SELECT CUSTOMER_NAME, CUSTOMER_ADDRESS FROM CUSTOMER WHERE CUSTOMER_PHONENUMBER  = @SoDienThoai;";
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@SoDienThoai", soDienThoai);
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -260,7 +261,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
                         // 2. Insert vào bảng PURCHASE_DETAIL
                         string insertChiTietQuery = @"
-                            INSERT INTO PURCHASE_DETAIL (PURCHASE_ID, PRODUCT_ID, PRODUCT_QUANTITY, PRODUCT_DETAIL_UNITPRICE, PRODUCT_DETAIL_SUBTOTAL)
+                            INSERT INTO PURCHASE_DETAIL (PURCHASE_ID, PRODUCT_ID, QUANTITY, PRODUCT_PRICE, PRODUCT_DETAIL_SUBTOTAL)
                             VALUES (@PurchaseId, @ProductId, @Quantity, @UnitPrice, @Subtotal);";
                         SqlCommand insertChiTietCmd = new SqlCommand(insertChiTietQuery, conn, transaction);
 

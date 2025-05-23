@@ -16,7 +16,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 {
     public partial class frmSaleTrangChu : MetroFramework.Forms.MetroForm
     {
-        private string connectionString = @"Data Source=DESKTOP-9897340;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True;Encrypt=False;";
+        private string connectionString = @"Data Source=LAPTOP-68GDOI8K\MAYCUONG;Initial Catalog=CMU_CS_447_GROUP_PROJECT;Integrated Security=True";
         int totalQuantity = 0;
         private List<Catalog> categories = new List<Catalog>();
         private List<Product> shoppingCart = new List<Product>();
@@ -329,7 +329,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    string query = "SELECT PRODUCT_ID, PRODUCT_NAME, PRODUCT_QUANTITY, PRODUCT_IMAGE, PRODUCT_UNITPRICE, CATALOG_ID FROM PRODUCT";
+                    string query = "SELECT PRODUCT_ID, PRODUCT_NAME, PRODUCT_QUANTITY, PRODUCT_IMAGE, PRODUCT_PRICE, CATALOG_ID FROM PRODUCT";
                     if (catalogId.HasValue && catalogId != -1)
                     {
                         query += " WHERE CATALOG_ID = @CatalogId";
@@ -356,7 +356,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                                 ProductName = reader["PRODUCT_NAME"].ToString(),
                                 Quantity = Convert.ToInt32(reader["PRODUCT_QUANTITY"]),
                                 ImageData = imageData,
-                                UnitPrice = Convert.ToDecimal(reader["PRODUCT_UNITPRICE"]),
+                                UnitPrice = Convert.ToDecimal(reader["PRODUCT_PRICE"]),
                                 CatalogId = Convert.ToInt32(reader["CATALOG_ID"])
                             });
                         }
@@ -412,6 +412,18 @@ namespace CLOTHING_SALES_MANAGEMENT
                 e.Cancel = true; // Huỷ việc đóng form
             }
           
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất?", "Xác nhận đăng xuất", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                var loginForm = new frmLogin();
+                loginForm.Show();
+                this.Close();
+            }
         }
     }
 }

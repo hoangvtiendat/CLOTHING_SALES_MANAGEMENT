@@ -585,5 +585,16 @@ namespace CLOTHING_SALES_MANAGEMENT
             panelEditDanhMuc.Visible = false; // Ẩn panel sửa danh mục nếu đang mở
             panelAddProduct.Visible = false; // Ẩn panel thêm sản phẩm nếu đang mở
         }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất?", "Xác nhận đăng xuất", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                var loginForm = new frmLogin();
+                loginForm.Show();
+                this.Close();
+            }
+        }
     }
 }

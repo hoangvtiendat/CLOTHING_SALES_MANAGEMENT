@@ -152,7 +152,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
@@ -166,7 +166,8 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            if (lblMaNhanVien.Text == "") {
+            if (lblMaNhanVien.Text == "")
+            {
                 MessageBox.Show("VUI LÒNG CHỌN NHÂN VIÊN MUỐN XÓA");
                 return;
             }
@@ -195,7 +196,7 @@ namespace CLOTHING_SALES_MANAGEMENT
             dataGridView1.DataSource = list;
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.AllowUserToAddRows = false;
-        
+
 
         }
 
@@ -206,12 +207,12 @@ namespace CLOTHING_SALES_MANAGEMENT
             dataGridView1.DataSource = list;
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.AllowUserToAddRows = false;
-            
+
         }
 
         private void btnTim_Click(object sender, EventArgs e)
         {
-            if(txtTimKiem.Text == "")
+            if (txtTimKiem.Text == "")
             {
                 MessageBox.Show("VUI LÒNG NHẬP TÊN NHÂN VIÊN CẦN TÌM KIẾM");
                 return;
@@ -229,4 +230,3 @@ namespace CLOTHING_SALES_MANAGEMENT
         }
     }
 }
-    

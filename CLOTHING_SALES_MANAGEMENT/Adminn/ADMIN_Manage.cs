@@ -96,6 +96,17 @@ namespace CLOTHING_SALES_MANAGEMENT
                 System.Diagnostics.Debug.WriteLine($"Lỗi khi đóng form con: {ex.Message}");
             }
         }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất?", "Xác nhận đăng xuất", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+               var loginForm = new frmLogin();
+                loginForm.Show();
+                this.Close();
+            }
+        }
     }
 }
 
