@@ -46,11 +46,24 @@ namespace CLOTHING_SALES_MANAGEMENT
                 MessageBox.Show("VUI LÒNG NHẬP ĐẦY ĐỦ TÊN, SỐ ĐIỆN THOẠI VÀ ĐỊA CHỈ");
                 return;
             }
-
+            string sdt = txtSDT.Text.Trim();
             string ten = txtTen.Text;
-            string sdt = txtSDT.Text;
             string diaChi = txtDiaChi.Text;
-            // CUSTOMER_PHONENUMBER
+            if (!System.Text.RegularExpressions.Regex.IsMatch(sdt, @"^\d+$"))
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI CHỈ ĐƯỢC CHỨA CÁC KÝ TỰ SỐ.");
+                return;
+            }
+            if (sdt.Length < 9 || sdt.Length > 11) // Số điện thoại VN thường từ 9-11 số (ví dụ: 09x-xxxx-xxx hoặc 02x-xxxx-xxx)
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI CÓ ĐỘ DÀI TỪ 9 ĐẾN 11 CHỮ SỐ.");
+                return;
+            }
+            if (!sdt.StartsWith("0"))
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI BẮT ĐẦU BẰNG SỐ 0.");
+                return;
+            }
             string query = $@"
                 INSERT INTO customer (customer_name, customer_address, CUSTOMER_PHONENUMBER)
                 VALUES (N'{ten}', N'{diaChi}', '{sdt}')

@@ -41,14 +41,14 @@
             this.btnTim = new MetroFramework.Controls.MetroButton();
             this.txtTimKim = new MetroFramework.Controls.MetroTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnSua = new MetroFramework.Controls.MetroButton();
-            this.btnThem = new MetroFramework.Controls.MetroButton();
-            this.lbl_ID = new System.Windows.Forms.Label();
-            this.btn_LamMoi = new MetroFramework.Controls.MetroButton();
             this.CUSTOMER_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CUSTOMER_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CUSTOMER_ADDRESS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CUSTOMER_PHONENUMBER = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSua = new MetroFramework.Controls.MetroButton();
+            this.btnThem = new MetroFramework.Controls.MetroButton();
+            this.lbl_ID = new System.Windows.Forms.Label();
+            this.btn_LamMoi = new MetroFramework.Controls.MetroButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -145,9 +145,9 @@
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.Location = new System.Drawing.Point(594, 304);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(59, 20);
+            this.metroLabel4.Size = new System.Drawing.Size(67, 20);
             this.metroLabel4.TabIndex = 5;
-            this.metroLabel4.Text = "TÌM KÍM";
+            this.metroLabel4.Text = "TÌM KIẾM";
             // 
             // txtSDT
             // 
@@ -271,6 +271,39 @@
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // CUSTOMER_ID
+            // 
+            this.CUSTOMER_ID.DataPropertyName = "CUSTOMER_ID";
+            this.CUSTOMER_ID.HeaderText = "CUSTOMER_ID";
+            this.CUSTOMER_ID.MinimumWidth = 6;
+            this.CUSTOMER_ID.Name = "CUSTOMER_ID";
+            this.CUSTOMER_ID.Visible = false;
+            this.CUSTOMER_ID.Width = 125;
+            // 
+            // CUSTOMER_NAME
+            // 
+            this.CUSTOMER_NAME.DataPropertyName = "CUSTOMER_NAME";
+            this.CUSTOMER_NAME.HeaderText = "Tên Khách Hàng";
+            this.CUSTOMER_NAME.MinimumWidth = 6;
+            this.CUSTOMER_NAME.Name = "CUSTOMER_NAME";
+            this.CUSTOMER_NAME.Width = 125;
+            // 
+            // CUSTOMER_ADDRESS
+            // 
+            this.CUSTOMER_ADDRESS.DataPropertyName = "CUSTOMER_ADDRESS";
+            this.CUSTOMER_ADDRESS.HeaderText = "Địa chỉ";
+            this.CUSTOMER_ADDRESS.MinimumWidth = 6;
+            this.CUSTOMER_ADDRESS.Name = "CUSTOMER_ADDRESS";
+            this.CUSTOMER_ADDRESS.Width = 125;
+            // 
+            // CUSTOMER_PHONENUMBER
+            // 
+            this.CUSTOMER_PHONENUMBER.DataPropertyName = "CUSTOMER_PHONENUMBER";
+            this.CUSTOMER_PHONENUMBER.HeaderText = "Số điện thoai";
+            this.CUSTOMER_PHONENUMBER.MinimumWidth = 6;
+            this.CUSTOMER_PHONENUMBER.Name = "CUSTOMER_PHONENUMBER";
+            this.CUSTOMER_PHONENUMBER.Width = 125;
+            // 
             // btnSua
             // 
             this.btnSua.Location = new System.Drawing.Point(359, 290);
@@ -310,39 +343,6 @@
             this.btn_LamMoi.Text = "Làm Mới";
             this.btn_LamMoi.UseSelectable = true;
             this.btn_LamMoi.Click += new System.EventHandler(this.btn_LamMoi_Click);
-            // 
-            // CUSTOMER_ID
-            // 
-            this.CUSTOMER_ID.DataPropertyName = "CUSTOMER_ID";
-            this.CUSTOMER_ID.HeaderText = "CUSTOMER_ID";
-            this.CUSTOMER_ID.MinimumWidth = 6;
-            this.CUSTOMER_ID.Name = "CUSTOMER_ID";
-            this.CUSTOMER_ID.Visible = false;
-            this.CUSTOMER_ID.Width = 125;
-            // 
-            // CUSTOMER_NAME
-            // 
-            this.CUSTOMER_NAME.DataPropertyName = "CUSTOMER_NAME";
-            this.CUSTOMER_NAME.HeaderText = "Tên Khách Hàng";
-            this.CUSTOMER_NAME.MinimumWidth = 6;
-            this.CUSTOMER_NAME.Name = "CUSTOMER_NAME";
-            this.CUSTOMER_NAME.Width = 125;
-            // 
-            // CUSTOMER_ADDRESS
-            // 
-            this.CUSTOMER_ADDRESS.DataPropertyName = "CUSTOMER_ADDRESS";
-            this.CUSTOMER_ADDRESS.HeaderText = "Địa chỉ";
-            this.CUSTOMER_ADDRESS.MinimumWidth = 6;
-            this.CUSTOMER_ADDRESS.Name = "CUSTOMER_ADDRESS";
-            this.CUSTOMER_ADDRESS.Width = 125;
-            // 
-            // CUSTOMER_PHONENUMBER
-            // 
-            this.CUSTOMER_PHONENUMBER.DataPropertyName = "CUSTOMER_PHONENUMBER";
-            this.CUSTOMER_PHONENUMBER.HeaderText = "Số điện thoai";
-            this.CUSTOMER_PHONENUMBER.MinimumWidth = 6;
-            this.CUSTOMER_PHONENUMBER.Name = "CUSTOMER_PHONENUMBER";
-            this.CUSTOMER_PHONENUMBER.Width = 125;
             // 
             // frmAdminCustomer
             // 
