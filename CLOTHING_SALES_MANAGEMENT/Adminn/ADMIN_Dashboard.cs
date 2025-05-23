@@ -44,7 +44,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
                 // Lấy dữ liệu tổng doanh thu
                 string query = "SELECT ISNULL(CAST(SUM(PURCHASE_TOTAL) AS INT), 0) FROM PURCHASE_HISTORY";
-                int totalRevenue = sqlServerConnection.ExecuteScalar(query);
+                int totalRevenue = Convert.ToInt32(sqlServerConnection.ExecuteScalar(query));
 
                 // Các phần chữ
                 string titleText = "Tổng Doanh Thu";
@@ -105,7 +105,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 // Lấy dữ liệu tổng số lượng sản phẩm đã bán
                 string query = "SELECT ISNULL(SUM(product_quantity), 0) FROM PURCHASE_DETAIL";
                 // hoặc ORDER_DETAIL
-                int totalSold = sqlServerConnection.ExecuteScalar(query);
+                int totalSold = Convert.ToInt32(sqlServerConnection.ExecuteScalar(query));
                 string displayText = $"{totalSold:N0} sản phẩm";
                 string title = "Tổng Sản Phẩm ";
 
@@ -157,7 +157,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
                 // Lấy dữ liệu tổng doanh thu
                 string query = "SELECT ISNULL(CAST(SUM(PURCHASE_TOTAL) AS INT), 0) FROM PURCHASE_HISTORY";
-                int totalRevenue = sqlServerConnection.ExecuteScalar(query);
+                int totalRevenue = Convert.ToInt32(sqlServerConnection.ExecuteScalar(query));
 
                 // Tính toán thuế 10% từ tổng doanh thu
                 double taxAmount = totalRevenue * 0.15;
@@ -218,7 +218,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
                 // Lấy dữ liệu tổng doanh thu
                 string query = "SELECT ISNULL(CAST(SUM(PURCHASE_TOTAL) AS INT), 0) FROM PURCHASE_HISTORY";
-                int totalRevenue = sqlServerConnection.ExecuteScalar(query);
+                int totalRevenue = Convert.ToInt32(sqlServerConnection.ExecuteScalar(query));
 
                 // Tính toán thuế 10% từ tổng doanh thu
                 double taxAmount = totalRevenue * 0.15;
@@ -282,7 +282,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
                 // Lấy tổng số khách hàng từ bảng CUSTOMER
                 string query = "SELECT COUNT(*) FROM CUSTOMER";
-                int customerCount = sqlServerConnection.ExecuteScalar(query);
+                int customerCount = Convert.ToInt32(sqlServerConnection.ExecuteScalar(query));
 
                 // Chuỗi hiển thị
                 string titleText = "Tổng Khách Hàng";
@@ -339,7 +339,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
                 // Lấy tổng số hóa đơn từ bảng PURCHASE_HISTORY
                 string query = "SELECT COUNT(*) FROM PURCHASE_HISTORY";
-                int orderCount = sqlServerConnection.ExecuteScalar(query);
+                int orderCount = Convert.ToInt32(sqlServerConnection.ExecuteScalar(query));
 
                 // Chuỗi hiển thị
                 string titleText = "Tổng Hóa Đơn";
