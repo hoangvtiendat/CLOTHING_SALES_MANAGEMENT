@@ -44,7 +44,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (txtDiaChi.Text == "" || txtEmail.Text == "" || txtSDT.Text == "" || txtTen.Text == "")
+            if (txtDiaChi.Text.Trim() == "" || txtEmail.Text == "" || txtSDT.Text == "" || txtTen.Text == "")
             {
                 MessageBox.Show("VUI LÒNG NHẬP ĐẦY ĐỦ THÔNG TIN");
                 return;
