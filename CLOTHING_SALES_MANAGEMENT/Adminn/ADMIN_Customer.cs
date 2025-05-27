@@ -46,13 +46,26 @@ namespace CLOTHING_SALES_MANAGEMENT
                 MessageBox.Show("VUI LÒNG NHẬP ĐẦY ĐỦ TÊN, SỐ ĐIỆN THOẠI VÀ ĐỊA CHỈ");
                 return;
             }
-
+            string sdt = txtSDT.Text.Trim();
             string ten = txtTen.Text;
-            string sdt = txtSDT.Text;
             string diaChi = txtDiaChi.Text;
-
+            if (!System.Text.RegularExpressions.Regex.IsMatch(sdt, @"^\d+$"))
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI CHỈ ĐƯỢC CHỨA CÁC KÝ TỰ SỐ.");
+                return;
+            }
+            if (sdt.Length < 9 || sdt.Length > 11) // Số điện thoại VN thường từ 9-11 số (ví dụ: 09x-xxxx-xxx hoặc 02x-xxxx-xxx)
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI CÓ ĐỘ DÀI TỪ 9 ĐẾN 11 CHỮ SỐ.");
+                return;
+            }
+            if (!sdt.StartsWith("0"))
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI BẮT ĐẦU BẰNG SỐ 0.");
+                return;
+            }
             string query = $@"
-                INSERT INTO customer (customer_name, customer_address, customer_numberphone)
+                INSERT INTO customer (customer_name, customer_address, CUSTOMER_PHONENUMBER)
                 VALUES (N'{ten}', N'{diaChi}', '{sdt}')
             ";
 
@@ -91,7 +104,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 UPDATE customer
                 SET customer_name = N'{ten}',
                     customer_address = N'{diaChi}',
-                    customer_numberphone = '{sdt}'
+                    CUSTOMER_PHONENUMBER = '{sdt}'
                 WHERE customer_id = {id}
             ";
 
@@ -147,7 +160,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 lbl_ID.Text = row.Cells["customer_id"].Value?.ToString();
                 txtTen.Text = row.Cells["customer_name"].Value?.ToString();
                 txtDiaChi.Text = row.Cells["customer_address"].Value?.ToString();
-                txtSDT.Text = row.Cells["customer_numberphone"].Value?.ToString();
+                txtSDT.Text = row.Cells["CUSTOMER_PHONENUMBER"].Value?.ToString();
             }
         }
 

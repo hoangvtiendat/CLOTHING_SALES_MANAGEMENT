@@ -44,7 +44,7 @@
             this.CUSTOMER_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CUSTOMER_NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CUSTOMER_ADDRESS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CUSTOMER_NUMBERPHONE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CUSTOMER_PHONENUMBER = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnSua = new MetroFramework.Controls.MetroButton();
             this.btnThem = new MetroFramework.Controls.MetroButton();
             this.lbl_ID = new System.Windows.Forms.Label();
@@ -145,9 +145,9 @@
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.Location = new System.Drawing.Point(594, 304);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(59, 20);
+            this.metroLabel4.Size = new System.Drawing.Size(67, 20);
             this.metroLabel4.TabIndex = 5;
-            this.metroLabel4.Text = "TÌM KÍM";
+            this.metroLabel4.Text = "TÌM KIẾM";
             // 
             // txtSDT
             // 
@@ -261,7 +261,7 @@
             this.CUSTOMER_ID,
             this.CUSTOMER_NAME,
             this.CUSTOMER_ADDRESS,
-            this.CUSTOMER_NUMBERPHONE});
+            this.CUSTOMER_PHONENUMBER});
             this.dataGridView1.Location = new System.Drawing.Point(283, 364);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -296,13 +296,13 @@
             this.CUSTOMER_ADDRESS.Name = "CUSTOMER_ADDRESS";
             this.CUSTOMER_ADDRESS.Width = 125;
             // 
-            // CUSTOMER_NUMBERPHONE
+            // CUSTOMER_PHONENUMBER
             // 
-            this.CUSTOMER_NUMBERPHONE.DataPropertyName = "CUSTOMER_NUMBERPHONE";
-            this.CUSTOMER_NUMBERPHONE.HeaderText = "Số điện thoai";
-            this.CUSTOMER_NUMBERPHONE.MinimumWidth = 6;
-            this.CUSTOMER_NUMBERPHONE.Name = "CUSTOMER_NUMBERPHONE";
-            this.CUSTOMER_NUMBERPHONE.Width = 125;
+            this.CUSTOMER_PHONENUMBER.DataPropertyName = "CUSTOMER_PHONENUMBER";
+            this.CUSTOMER_PHONENUMBER.HeaderText = "Số điện thoai";
+            this.CUSTOMER_PHONENUMBER.MinimumWidth = 6;
+            this.CUSTOMER_PHONENUMBER.Name = "CUSTOMER_PHONENUMBER";
+            this.CUSTOMER_PHONENUMBER.Width = 125;
             // 
             // btnSua
             // 
@@ -392,10 +392,10 @@
         private MetroFramework.Controls.MetroButton btnSua;
         private MetroFramework.Controls.MetroButton btnThem;
         private System.Windows.Forms.Label lbl_ID;
+        private MetroFramework.Controls.MetroButton btn_LamMoi;
         private System.Windows.Forms.DataGridViewTextBoxColumn CUSTOMER_ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn CUSTOMER_NAME;
         private System.Windows.Forms.DataGridViewTextBoxColumn CUSTOMER_ADDRESS;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CUSTOMER_NUMBERPHONE;
-        private MetroFramework.Controls.MetroButton btn_LamMoi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CUSTOMER_PHONENUMBER;
     }
 }

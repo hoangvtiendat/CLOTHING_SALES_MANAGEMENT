@@ -55,15 +55,25 @@ namespace CLOTHING_SALES_MANAGEMENT
                 return;
             }
 
-            if (txtSDT.Text.Length < 10 || txtSDT.Text.Length > 11)
+            if (!System.Text.RegularExpressions.Regex.IsMatch(txtSDT.Text, @"^\d+$"))
             {
-                MessageBox.Show("SỐ ĐIỆN THOẠI KHÔNG HỢP LỆ");
+                MessageBox.Show("SỐ ĐIỆN THOẠI CHỈ ĐƯỢC CHỨA CÁC KÝ TỰ SỐ.");
+                return;
+            }
+            if (!txtSDT.Text.StartsWith("0"))
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI BẮT ĐẦU BẰNG SỐ 0.");
+                return;
+            }
+            if (txtSDT.Text.Length < 9 || txtSDT.Text.Length > 11) // Số điện thoại VN thường từ 9-11 số (ví dụ: 09x-xxxx-xxx hoặc 02x-xxxx-xxx)
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI CÓ ĐỘ DÀI TỪ 9 ĐẾN 11 CHỮ SỐ.");
                 return;
             }
 
             string diachi = txtDiaChi.Text;
             string email = txtEmail.Text;
-            string sdt = txtSDT.Text;
+            string sdt = txtSDT.Text.Trim();
             string ten = txtTen.Text;
 
             var checkEmailQuery = $"SELECT COUNT(*) FROM EMPLOYEE WHERE EMPLOYEE_EMAIL = '{email}'";
@@ -85,7 +95,7 @@ namespace CLOTHING_SALES_MANAGEMENT
                 return;
             }
 
-            string insertQuery = $"insert into EMPLOYEE (EMPLOYEE_NAME, EMPLOYEE_EMAIL, EMPLOYEE_ADDRESS, EMPLOYEE_PHONENUMBER) values ('{ten}', '{email}', '{diachi}', '{sdt}' )";
+            string insertQuery = $"insert into EMPLOYEE (EMPLOYEE_NAME, EMPLOYEE_EMAIL, EMPLOYEE_ADDRESS, EMPLOYEE_PHONENUMBER) values (N'{ten}', '{email}', N'{diachi}', '{sdt}' )";
 
             int rowsAffected = sqlServerConnection.ExecuteNonQuery(insertQuery);
 
@@ -113,6 +123,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void btnCapNhat_Click(object sender, EventArgs e)
         {
+            string sdt = txtSDT.Text.Trim();
             if (lblMaNhanVien.Text == "")
             {
                 MessageBox.Show("VUi LÒNG CHỌN NHÂN VIÊN ĐỂ CẬP NHẬT");
@@ -128,12 +139,19 @@ namespace CLOTHING_SALES_MANAGEMENT
                 MessageBox.Show("EMAIL KHÔNG HỢP LỆ");
                 return;
             }
-            if (txtSDT.Text.Length < 10 || txtSDT.Text.Length > 11)
+
+          
+            if (!sdt.StartsWith("0"))
             {
-                MessageBox.Show("SỐ ĐIỆN THOẠI KHÔNG HỢP LỆ");
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI BẮT ĐẦU BẰNG SỐ 0.");
                 return;
             }
-            string query = $"UPDATE EMPLOYEE SET EMPLOYEE_NAME = '{txtTen.Text}', EMPLOYEE_EMAIL = '{txtEmail.Text}', EMPLOYEE_ADDRESS = '{txtDiaChi.Text}', EMPLOYEE_PHONENUMBER = '{txtSDT.Text}' WHERE EMPLOYEE_NAME = '{lblMaNhanVien.Text}'";
+            if (sdt.Length < 9 || sdt.Length > 11) 
+            {
+                MessageBox.Show("SỐ ĐIỆN THOẠI PHẢI CÓ ĐỘ DÀI TỪ 9 ĐẾN 11 CHỮ SỐ.");
+                return;
+            }
+            string query = $"UPDATE EMPLOYEE SET EMPLOYEE_NAME = N'{txtTen.Text}', EMPLOYEE_EMAIL = '{txtEmail.Text}', EMPLOYEE_ADDRESS = N'{txtDiaChi.Text}', EMPLOYEE_PHONENUMBER = '{txtSDT.Text}' WHERE EMPLOYEE_NAME = '{lblMaNhanVien.Text}'";
             int rowsAffected = sqlServerConnection.ExecuteNonQuery(query);
             if (rowsAffected > 0)
             {
@@ -152,7 +170,7 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
@@ -166,7 +184,8 @@ namespace CLOTHING_SALES_MANAGEMENT
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            if (lblMaNhanVien.Text == "") {
+            if (lblMaNhanVien.Text == "")
+            {
                 MessageBox.Show("VUI LÒNG CHỌN NHÂN VIÊN MUỐN XÓA");
                 return;
             }
@@ -195,7 +214,7 @@ namespace CLOTHING_SALES_MANAGEMENT
             dataGridView1.DataSource = list;
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.AllowUserToAddRows = false;
-        
+
 
         }
 
@@ -206,12 +225,12 @@ namespace CLOTHING_SALES_MANAGEMENT
             dataGridView1.DataSource = list;
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.AllowUserToAddRows = false;
-            
+
         }
 
         private void btnTim_Click(object sender, EventArgs e)
         {
-            if(txtTimKiem.Text == "")
+            if (txtTimKiem.Text == "")
             {
                 MessageBox.Show("VUI LÒNG NHẬP TÊN NHÂN VIÊN CẦN TÌM KIẾM");
                 return;
@@ -229,4 +248,3 @@ namespace CLOTHING_SALES_MANAGEMENT
         }
     }
 }
-    

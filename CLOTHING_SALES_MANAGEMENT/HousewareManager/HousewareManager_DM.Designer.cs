@@ -40,6 +40,7 @@
             this.btn_UpdateP = new System.Windows.Forms.Button();
             this.btnCancelAddProduct = new System.Windows.Forms.Button();
             this.panelCards = new System.Windows.Forms.Panel();
+            this.btnDangXuat = new MetroFramework.Controls.MetroButton();
             this.panelHeader.SuspendLayout();
             this.panelThemDanhMuc.SuspendLayout();
             this.metroPanel1.SuspendLayout();
@@ -443,9 +444,20 @@
             this.panelCards.Click += new System.EventHandler(this.panelCards_Click);
             this.panelCards.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCards_Paint);
             // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.Location = new System.Drawing.Point(817, 24);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(115, 30);
+            this.btnDangXuat.TabIndex = 3;
+            this.btnDangXuat.Text = "ĐĂNG XUẤT";
+            this.btnDangXuat.UseSelectable = true;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
+            // 
             // frmHousewareManagerDM
             // 
             this.ClientSize = new System.Drawing.Size(952, 563);
+            this.Controls.Add(this.btnDangXuat);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.panelHeader);
             this.Name = "frmHousewareManagerDM";
@@ -490,5 +502,6 @@
         private System.Windows.Forms.Button btnSaveProduct;
         private System.Windows.Forms.Button btnCancelAddProduct;
         private System.Windows.Forms.Button btn_UpdateP;
+        private MetroFramework.Controls.MetroButton btnDangXuat;
     }
 }
